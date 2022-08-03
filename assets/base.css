@@ -1,7 +1,4 @@
 /* Color custom properties */
-body * {
-  background-color: brown !important;
-}
 
 :root,
 .color-background-1 {
