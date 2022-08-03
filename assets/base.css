@@ -1,5 +1,5 @@
 /* Color custom properties */
-body {
+body * {
   background-color: brown !important;
 }
 :root,
