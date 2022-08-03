@@ -6,12 +6,6 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-#section_1_bgimg {
-    background-image: url({{section.settings.bg_image | img_url : 'master'}});
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -23,9 +17,18 @@
 
 <div class="section-{{ section.id }}-padding">
  
-<div class="section_1">
-    <div id="section_1_bgimg">
-      <h2>{{ section.settings.title }}  </h2>
+<div class="section_2_header">
+    <div class="section_2_wrapper pure-g">
+      <div class="section_2_img pure-u-1 pure-u-md-12-24"   >
+        <img src="{{section.settings.person  | img_url: 'master'}}" alt="">
+      </div>
+      <div class="section_2_txt pure-u-1 pure-u-md-12-24">
+        <img src="{{section.settings.star  | img_url: 'master'}}" alt="">
+        <h3>
+        {{section.settings.title}}
+        </h3>
+        <pre>— {{section.settings.code}}</pre>
+      </div>
     </div>
   </div>
 
@@ -34,20 +37,27 @@
 
 {% schema %}
 {
-  "name": "Hero V2",
+  "name": "Testimonial",
   "settings": [
     {
       "type": "text",
       "label": "Title",
       "id": "title"
+    }, {
+      "type": "text",
+      "label": "Code",
+      "id": "code"
     },
-
     {
       "type": "image_picker",
-      "label": "Background Image",
-      "id": "bg_image"
+      "label": "star Image",
+      "id": "star"
     },
-
+ {
+      "type": "image_picker",
+      "label": "Person",
+      "id": "person"
+    },
     {
       "type": "range",
       "id": "padding_top",
@@ -71,7 +81,7 @@
   ],
   "presets": [
     {
-      "name": "Hero V2"
+      "name": "Testimonial"
     }
   ]
 }
