@@ -7,6 +7,15 @@
         "padding_bottom": 28
       }
     },
+    "1659613516862bd988": {
+      "type": "hero-v2",
+      "settings": {
+        "title": "MÁS QUE UN CLUB DE RUNNING,<br>         UNA COMUNIDAD",
+        "bg_image": "shopify:\/\/shop_images\/Rectangle_374d.jpg",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1659610718c22f7065": {
       "type": "hero_v3",
       "settings": {
@@ -30,6 +39,7 @@
   },
   "order": [
     "main",
+    "1659613516862bd988",
     "1659610718c22f7065",
     "1659598086469e5b8d"
   ]
