@@ -1,11 +1,11 @@
 {%- style -%} .section-{{ section.id }}-padding { padding-top:
 {{ section.settings.padding_top | times: 0.75 | round: 0 }}px; padding-bottom:
 {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px; }
-#section_1_bgimg { font-family:primary; background-image: url({{
+#section_1_bgimg { font-family: primary; background-image: url({{
   section.settings.bg_image | img_url: "master"
-}}); background-repeat: no-repeat; background-size: cover; color:white; } @media
-screen and (min-width: 750px) { .section-{{ section.id }}-padding { padding-top:
-{{ section.settings.padding_top }}px; padding-bottom:
+}}); background-repeat: no-repeat; background-size: cover; color: white; }
+@media screen and(min-width: 750px) { .section-{{ section.id }}-padding {
+padding-top: {{ section.settings.padding_top }}px; padding-bottom:
 {{ section.settings.padding_bottom }}px; } } {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding">
