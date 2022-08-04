@@ -1,0 +1,116 @@
+{%- style -%}
+
+.section-{{section.id}}-padding {
+    padding-top: {{section.settings.padding_top | times: 0.75 | round: 0}}px;
+    padding-bottom: {{section.settings.padding_bottom | times: 0.75 | round: 0}}px;
+}
+
+
+
+
+
+
+@media screen and(min-width: 750px) {
+    .section-{{section.id}}-padding {
+        padding-top: {{section.settings.padding_top}}px;
+        padding-bottom: {{section.settings.padding_bottom}}px;
+    }
+}
+
+{%- endstyle -%}
+
+<div class="section-{{ section.id }}-padding">
+    <div class="section_3_uperside">
+        <div class="secion_3_wrapper">
+          <h3>{{section.settings.title}}</h3>
+          <div class="section_3_uperside_imgcontainer pure-g">
+            <div class="section_3_img_1 pure-u-1 pure-u-md-5-24">
+              <h5>{{section.settings.h5_1}}</h5>
+              <h4>{{section.settings.h4_1}}</h4>
+            </div>
+            <div class="section_3_img_2 pure-u-1 pure-u-md-5-24">
+                <h5>{{section.settings.h5_2}}</h5>
+                <h4>{{section.settings.h4_2}}</h4>
+            </div>
+            <div class="section_3_img_3 pure-u-1 pure-u-md-5-24">
+                <h5>{{section.settings.h5_3}}</h5>
+                <h4>{{section.settings.h4_3}}</h4>
+            </div>
+            <div class="section_3_img_4 pure-u-1 pure-u-md-5-24">
+                <h5>{{section.settings.h5_4}}</h5>
+                <h4>{{section.settings.h4_4}}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+{% schema %}
+
+{
+    "name": "Hero V5",
+    "settings": [
+        {
+            "type": "text",
+            "label": "Title",
+            "id": "title"
+        }, {
+            "type": "image_picker",
+            "label": "txt",
+            "id": "h5_1"
+        },{
+            "type": "image_picker",
+            "label": "txt",
+            "id": "h4_1"
+        },{
+            "type": "image_picker",
+            "label": "txt",
+            "id": "h5_2"
+        },{
+            "type": "image_picker",
+            "label": "txt",
+            "id": "h4_2"
+        },{
+            "type": "image_picker",
+            "label": "txt",
+            "id": "h5_3"
+        },{
+            "type": "image_picker",
+            "label": "txt",
+            "id": "h4_3"
+        },{
+            "type": "image_picker",
+            "label": "txt",
+            "id": "h5_4"
+        },{
+            "type": "image_picker",
+            "label": "txt",
+            "id": "h4_4"
+        }, {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 36
+        }, {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 36
+        }
+    ],
+    "presets": [
+        {
+            "name": "Hero V5"
+        }
+    ]
+}
+
+{% endschema %}
