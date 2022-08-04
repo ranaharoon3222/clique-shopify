@@ -1,7 +1,10 @@
 {%- style -%} .section-{{ section.id }}-padding { padding-top:
 {{ section.settings.padding_top | times: 0.75 | round: 0 }}px; padding-bottom:
-{{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px; } @media
-screen and(min-width: 750px) { .section-{{ section.id }}-padding { padding-top:
+{{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px; }
+.section_1_end_text p { color: aliceblue; text-align: center; padding-bottom:
+24px; width: 90%; margin: auto; } .section_1_end_text h3 { color: EA2E34;
+text-align: center; font-size: 32px; font-weight: 400; } @media screen
+and(min-width: 750px) { .section-{{ section.id }}-padding { padding-top:
 {{ section.settings.padding_top }}px; padding-bottom:
 {{ section.settings.padding_bottom }}px; } } {%- endstyle -%}
 
@@ -17,7 +20,7 @@ screen and(min-width: 750px) { .section-{{ section.id }}-padding { padding-top:
 </div>
 
 {% schema %} { "name": "Hero V3", "settings": [ { "type": "text", "label":
-"Title", "id": "title" }, { "type": "text", "label": "Title", "id": "txt" }, {
+"Title", "id": "title" }, { "type": "text", "label": "txt", "id": "txt" }, {
 "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit":
 "px", "label": "t:sections.all.padding.padding_top", "default": 36 }, { "type":
 "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px",
