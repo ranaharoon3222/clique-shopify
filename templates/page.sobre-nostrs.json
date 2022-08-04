@@ -7,6 +7,15 @@
         "padding_bottom": 28
       }
     },
+    "1659610718c22f7065": {
+      "type": "hero_v3",
+      "settings": {
+        "title": "Somos una nueva generación de corredores, entregados y comprometidos, a los que nos encanta compartir la pasión por correr y cumplir nuestras metas en el proceso, pero sobre todo...",
+        "txt": "SOMOS INSPIRACIÓN",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1659598086469e5b8d": {
       "type": "customer-testimonial",
       "settings": {
@@ -14,15 +23,6 @@
         "code": "sfdsafsd",
         "star": "shopify:\/\/shop_images\/Frame_569.png",
         "person": "shopify:\/\/shop_images\/fst_img_section_2.png",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1659610718c22f7065": {
-      "type": "hero_v3",
-      "settings": {
-        "title": "Somos una nueva generación de corredores, entregados y comprometidos, a los que nos encanta compartir la pasión por correr y cumplir nuestras metas en el proceso, pero sobre todo...",
-        "txt": "SOMOS INSPIRACIÓN",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -39,8 +39,8 @@
   },
   "order": [
     "main",
-    "1659598086469e5b8d",
     "1659610718c22f7065",
+    "1659598086469e5b8d",
     "1659598058d07e790d"
   ]
 }
