@@ -1,0 +1,90 @@
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section-{{ section.id }}-padding">
+ 
+<div class="section_2_header">
+    <div class="section_2_wrapper pure-g">
+      <div class="section_2_img pure-u-1 pure-u-md-12-24"   >
+        <img src="{{section.settings.person  | img_url: 'master'}}" alt="">
+      </div>
+      <div class="section_2_txt pure-u-1 pure-u-md-12-24">
+        <img src="{{section.settings.star  | img_url: 'master'}}" alt="">
+        <h3>
+        {{section.settings.title}}
+        </h3>
+        <pre>— {{section.settings.code}}</pre>
+      </div>
+    </div>
+  </div>
+
+    
+</div>
+
+{% schema %}
+{
+  "name": "Testimonial",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Title",
+      "id": "title"
+    }, {
+      "type": "text",
+      "label": "Code",
+      "id": "code"
+    },
+    {
+      "type": "image_picker",
+      "label": "star Image",
+      "id": "star"
+    },
+ {
+      "type": "image_picker",
+      "label": "Person",
+      "id": "person"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonial"
+    }
+  ]
+}
+
+
+{% endschema %}
