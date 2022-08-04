@@ -1,3 +1,10 @@
+
+.wrapper{
+    max-width: 128px
+    wwidth : 100%;
+    margin:auto
+}
+
 .experience {
     font-family: 'Hammer & Tongs';
     font-style: normal;
