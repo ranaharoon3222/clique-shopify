@@ -6,7 +6,7 @@
 }
 
 .experience {
-    font-family: 'Hammer & Tongs';
+    font-family: primary;
     font-style: normal;
     font-weight: 400px;
     font-size: 30px;
@@ -17,6 +17,7 @@
     margin-top: 70px;}
 
     .comparte {
+        font-family: 'lato';
         width: 57%;
         margin: 18px auto;
         font-family: 'Lato';
