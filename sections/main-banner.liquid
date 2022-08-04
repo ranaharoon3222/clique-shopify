@@ -1,0 +1,101 @@
+
+
+
+{%- style -%}
+.section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+}
+
+#section_1_bgimg {
+  background-image: url({{section.settings.bg_image | img_url : 'master'}});
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+}
+{%- endstyle -%}
+
+<div class="section-{{ section.id }}-padding">
+    
+    <div class="section-2">
+        <div class="wrapper">
+          
+          <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-24-24">
+              <div class="sec2-banner">
+                <p>{{section.settings.title}} </p>
+                <h3>{{section.settings.heading}}  </h3>
+                <div class="button-wrap">
+                  <button class="sec2-button1">hombre</button>
+                  <button class="sec2-button2">mujer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  
+</div>
+
+{% schema %}
+{
+"name": "main-banner",
+"settings": [
+  {
+    "type": "text",
+    "label": "Title",
+    "id": "title"
+  },
+  {
+    "type": "text",
+    "label": "Title",
+    "id": "heading"
+  },
+  
+
+  {
+    "type": "image_picker",
+    "label": "Background Image",
+    "id": "bg_image"
+  },
+
+  {
+    "type": "range",
+    "id": "padding_top",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_top",
+    "default": 36
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_bottom",
+    "default": 36
+  }
+],
+"presets": [
+  {
+    "name": "main-banner"
+  }
+]
+}
+
+
+{% endschema %}
