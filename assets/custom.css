@@ -1,3 +1,10 @@
+
+.wrapper {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
 .experience {
     font-family: 'Hammer & Tongs';
     font-style: normal;
@@ -19,4 +26,21 @@
         line-height: 30px;
         text-align: center;
         margin-top: 30px;
+    }
+
+
+
+
+
+
+    @media all and (max-width :768px){
+        .experience {
+            text-align: left;
+        }
+        .comparte {
+            text-align: left;
+            margin-bottom: 80px;
+            width: 100%;
+        }
+
     }
