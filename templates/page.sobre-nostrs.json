@@ -57,6 +57,18 @@
       "type": "hero_v5",
       "settings": {
         "title": "LÍDERES DEL CLUB",
+        "bg_image": "shopify:\/\/shop_images\/Rectangle_374.jpg",
+        "bg_image_2": "shopify:\/\/shop_images\/Rectangle_374b.jpg",
+        "bg_image_3": "shopify:\/\/shop_images\/Rectangle_374c.jpg",
+        "bg_image_4": "shopify:\/\/shop_images\/Rectangle_374e.jpg",
+        "h5_1": "PUESTO DENTRO DEL EQUIPO",
+        "h4_1": "ARTURO DÍAZ",
+        "h5_2": "PUESTO DENTRO DEL EQUIPO",
+        "h4_2": "DIANA QUIROZ",
+        "h5_3": "PUESTO DENTRO DEL EQUIPO",
+        "h4_3": "PEDRO TORRES",
+        "h5_4": "PUESTO DENTRO DEL EQUIPO",
+        "h4_4": "KRISTEL ORTEGA",
         "padding_top": 36,
         "padding_bottom": 36
       }
