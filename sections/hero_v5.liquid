@@ -7,7 +7,26 @@
 .secion_3_wrapper h3{
     color:white;
 }
-
+.section_3_img_1 {
+    background-image: url({{section.settings.bg_image | img_url: 'master' }});
+    background-position: center;
+    background-size: cover;
+}
+.section_3_img_2 {
+    background-image: url({{section.settings.bg_image_2 | img_url: 'master' }});
+    background-position: center;
+    background-size: cover;
+}
+.section_3_img_3 {
+    background-image: url({{section.settings.bg_image_3 | img_url: 'master' }});
+    background-position: center;
+    background-size: cover;
+}
+.section_3_img_4 {
+    background-image: url({{section.settings.bg_image_4 | img_url: 'master' }});
+    background-position: center;
+    background-size: cover;
+}
 
 
 
@@ -57,36 +76,52 @@
             "type": "text",
             "label": "Title",
             "id": "title"
-        }, {
+        },{
             "type": "image_picker",
+            "label": "image",
+            "id": "bg_image"
+        },{
+            "type": "image_picker",
+            "label": "image",
+            "id": "bg_image_2"
+        },{
+            "type": "image_picker",
+            "label": "image",
+            "id": "bg_image_3"
+        },{
+            "type": "image_picker",
+            "label": "image",
+            "id": "bg_image_4"
+        }, {
+            "type": "text",
             "label": "txt",
             "id": "h5_1"
         },{
-            "type": "image_picker",
+            "type": "text",
             "label": "txt",
             "id": "h4_1"
         },{
-            "type": "image_picker",
+            "type": "text",
             "label": "txt",
             "id": "h5_2"
         },{
-            "type": "image_picker",
+            "type": "text",
             "label": "txt",
             "id": "h4_2"
         },{
-            "type": "image_picker",
+            "type": "text",
             "label": "txt",
             "id": "h5_3"
         },{
-            "type": "image_picker",
+            "type": "text",
             "label": "txt",
             "id": "h4_3"
         },{
-            "type": "image_picker",
+            "type": "text",
             "label": "txt",
             "id": "h5_4"
         },{
-            "type": "image_picker",
+            "type": "text",
             "label": "txt",
             "id": "h4_4"
         }, {
