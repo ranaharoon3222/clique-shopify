@@ -18,6 +18,15 @@
         "padding_bottom": 36
       }
     },
+    "1659610718c22f7065": {
+      "type": "hero_v3",
+      "settings": {
+        "title": "Somos una nueva generación de corredores, entregados y comprometidos, a los que nos encanta compartir la pasión por correr y cumplir nuestras metas en el proceso, pero sobre todo...",
+        "txt": "SOMOS INSPIRACIÓN",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1659598058d07e790d": {
       "type": "hero-v2",
       "settings": {
@@ -31,6 +40,7 @@
   "order": [
     "main",
     "1659598086469e5b8d",
+    "1659610718c22f7065",
     "1659598058d07e790d"
   ]
 }
