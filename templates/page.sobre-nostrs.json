@@ -10,37 +10,27 @@
     "1659610718c22f7065": {
       "type": "hero_v3",
       "settings": {
-        "title": "Somos una nueva generación de corredores, entregados y comprometidos, a los que nos encanta compartir la pasión por correr y cumplir nuestras metas en el proceso, pero sobre todo...",
-        "txt": "SOMOS INSPIRACIÓN",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Somos una nueva generación de corredores, entregados y comprometidos, a los que nos encanta compartir la pasión por correr y<br> cumplir nuestras metas en el proceso, pero sobre todo...",
+        "txt": "SOMOS INSPIRACION",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1659598086469e5b8d": {
       "type": "customer-testimonial",
       "settings": {
-        "title": "fsafsdafsafsafasfasfasfas",
-        "code": "sfdsafsd",
+        "title": "El running es la búsqueda para encontrar la mejor versión de nosotros mismos. Mente, alma y cuerpo en conexión para empujar más allá de tus límites.",
+        "code": "Miembro de Clique",
         "star": "shopify:\/\/shop_images\/Frame_569.png",
         "person": "shopify:\/\/shop_images\/fst_img_section_2.png",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1659598058d07e790d": {
-      "type": "hero-v2",
-      "settings": {
-        "title": "xzcxdzfsdfc",
-        "bg_image": "shopify:\/\/shop_images\/pet-and-owner-on-fall-walk.jpg",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "main",
     "1659610718c22f7065",
-    "1659598086469e5b8d",
-    "1659598058d07e790d"
+    "1659598086469e5b8d"
   ]
 }
