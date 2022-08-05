@@ -334,18 +334,13 @@
     margin: auto;
     margin-top: 30px;
   }
-  .section-8 {
-    background-image: url("./images/sec8-1new.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 175px 0px;
-  }
+  
   
   .sec8-content h4 {
     color: var(--whiteColor);
     font-weight: 400;
     font-size: 14px;
-    /* font-family: Hammer & Tongs; */
+    font-family: primary;
     line-height: 18px;
     text-align: center;
     letter-spacing: 1px;
@@ -355,7 +350,7 @@
     color: var(--whiteColor);
     font-weight: 400;
     font-size: 32px;
-    /* font-family: Hammer & Tongs; */
+    font-family: primary;
     line-height: 34px;
     text-align: center;
   
