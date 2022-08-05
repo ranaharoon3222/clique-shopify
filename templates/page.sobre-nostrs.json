@@ -76,6 +76,17 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "165968002212b68b34": {
+      "type": "hero_v6",
+      "settings": {
+        "title": "UN PASEO MUY ESPECIAL",
+        "title_2": "CORRER ES MOVIMIENTO Y NOSOTROS NOS NOVEMOS CON ESTILO",
+        "pahra": "El Clique combi (nuestro autobús VW) es una gran experiencia, en donde servimos café, aperitivos y tocamos nuestra música, no sólo para nuestros miembros, sino también para amigos, familiares y quien quiera unirse a la diversión... Todos están invitados.",
+        "image": "shopify:\/\/shop_images\/Group_1.png",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -84,6 +95,7 @@
     "1659610718c22f7065",
     "1659598086469e5b8d",
     "1659621545f72f7f01",
-    "1659637671eb801540"
+    "1659637671eb801540",
+    "165968002212b68b34"
   ]
 }
