@@ -8,9 +8,9 @@
 }
 
 
-.section-2 {
+.section-2{
   
-    background-image: url({{section.settings.bg_image |  img_url: 'master' }});
+    background-image: url({{section.settings.image1 |  img_url: 'master' }});
     background-size: cover;
     padding: 240px 0px;
     background-position: center; 
@@ -54,6 +54,11 @@
 "name": "main-banner",
 "settings": [
   {
+    "type": "image_picker",
+    "label": "Background Image",
+    "id": "image1"
+  },
+  {
     "type": "text",
     "label": "Title",
     "id": "title"
@@ -65,11 +70,7 @@
   },
   
 
-  {
-    "type": "image_picker",
-    "label": "Background Image",
-    "id": "bg_image"
-  },
+  
 
   {
     "type": "range",
