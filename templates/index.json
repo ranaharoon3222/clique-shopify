@@ -18,7 +18,7 @@
       "settings": {
         "title": "Más que un club de Running, una comunidad",
         "heading": "Sé parte del club con nuestros productos oficiales.",
-        "bg_image": "shopify:\/\/shop_images\/fst_img_section_2.png",
+        "bg_image": "shopify:\/\/shop_images\/welcome-to-my-business.jpg",
         "padding_top": 52,
         "padding_bottom": 100
       }
@@ -66,6 +66,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1659697777702b6c90": {
+      "type": "small-banner1",
+      "settings": {
+        "heading3": "únete al club",
+        "paragraph": "Corredores, yoguis, trialetas, amantes del fitness, prospectos del running, familiares y amigos... Miles siguen al club y a sus miembros.",
+        "heading5": "¿te interesa ser parte de clique run club?",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -74,6 +84,7 @@
     "1659680571d361d127",
     "16596844834dd7c2bf",
     "16596854457a1c6434",
-    "1659686714a3ef1c43"
+    "1659686714a3ef1c43",
+    "1659697777702b6c90"
   ]
 }
