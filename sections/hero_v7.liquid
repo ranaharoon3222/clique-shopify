@@ -7,7 +7,7 @@
     padding-bottom: {{section.settings.padding_bottom | times: 0.75 | round: 0}}px;
 }
 
-#section_1_bgimg {
+.last_section_bgimg {
     background-image: url({{section.settings.bg_image | img_url: 'master' }});
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@
     
           <div class="last_section_txt">
             <h5>{{section.settings.title}}</h5>
-            <h3>@{{section.settings.link}}</h3>
+            <h3>{{section.settings.link}}</h3>
           </div>
     
         </div>
