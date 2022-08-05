@@ -1,26 +1,13 @@
 {
   "sections": {
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16596109079597c687": {
       "type": "main-banner",
       "settings": {
+        "image1": "shopify:\/\/shop_images\/hiker-ties-their-shoe.jpg",
         "title": "Más que un club de Running, una comunidad",
         "heading": "Sé parte del club con nuestros productos oficiales.",
-        "bg_image": "shopify:\/\/shop_images\/welcome-to-my-business.jpg",
-        "padding_top": 52,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1659680571d361d127": {
@@ -63,8 +50,8 @@
         "image1": "shopify:\/\/shop_images\/camera-looks-down-on-wooden-table-with-two-bao-buns.jpg",
         "heading2": "lo mantenemos real",
         "paragraph": "Los corredores se identifican con nosotros porque no somos                 atletas profesionales, somos 100% reales.",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1659697777702b6c90": {
@@ -73,8 +60,8 @@
         "heading3": "únete al club",
         "paragraph": "Corredores, yoguis, trialetas, amantes del fitness, prospectos del running, familiares y amigos... Miles siguen al club y a sus miembros.",
         "heading5": "¿te interesa ser parte de clique run club?",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1659698592bb072cdd": {
@@ -83,13 +70,12 @@
         "heading4": "síguenos",
         "heading2": "@cliquerunclub",
         "image1": "shopify:\/\/shop_images\/banner-instagram.png",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "video",
     "16596109079597c687",
     "1659680571d361d127",
     "16596844834dd7c2bf",

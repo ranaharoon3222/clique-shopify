@@ -10,7 +10,7 @@
 
 .usman.section-2{
   
-    background-image: url({{section.settings.image1 |  img_url: 'master' }});
+    background-image: url({{section.settings.image1 |  img_url: 'master' }}) !important;
     background-size: cover;
     padding: 240px 0px;
     background-position: center; 
@@ -56,7 +56,7 @@
   {
     "type": "image_picker",
     "label": "Background Image",
-    "id": "image1"
+    "id": "image1" 
   },
   {
     "type": "text",
