@@ -308,6 +308,9 @@
     text-align: center;
     margin-top: 20px;
   }
+  .sec6-image img{
+    padding-right: 85px;
+  }
   
   
   .sec7-content h2 {
@@ -368,6 +371,7 @@
   .sec9-content h3{
   color: #151515;
   text-align: center;
+  font-family: primary;
   }
   .sec9-content p{
     font-family: "Lato";
@@ -383,6 +387,7 @@
   
   }
   .sec9-content h5{
+    font-family: primary;
     text-align: center;
     letter-spacing: 1px;
     color: #EA2E34;
