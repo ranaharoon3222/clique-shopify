@@ -33,11 +33,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16596844834dd7c2bf": {
+      "type": "sec-with-image1",
+      "settings": {
+        "brandimage": "shopify:\/\/shop_images\/Frame_569.png",
+        "heading3": "Más que un club de running,                  una comunidad",
+        "paragraph": "Somos una nueva generación de corredores, entregados y                 comprometidos, a los que nos encanta compartir la pasión por                 correr y cumplir nuestras metas en el proceso, pero sobre todo…",
+        "heading4": "Somos inspiración",
+        "image1": "shopify:\/\/shop_images\/hiker-ties-their-shoe.jpg",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "video",
     "16596109079597c687",
-    "1659680571d361d127"
+    "1659680571d361d127",
+    "16596844834dd7c2bf"
   ]
 }
