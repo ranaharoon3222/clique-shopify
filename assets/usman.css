@@ -169,12 +169,7 @@
   .section-3 {
     margin-top: 60px;
   }
-  .sec3.img1 {
-    background-image: url("./images/sec3-1.jpg");
-  }
-  .sec3.img2 {
-    background-image: url("./images/sec3-2.jpg");
-  }
+  
   .sec3 {
     height: 400px;
     background-size: cover;
