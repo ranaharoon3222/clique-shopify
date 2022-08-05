@@ -121,6 +121,7 @@
   }
   
   .sec2-banner p {
+    font-family: primary;
     max-width: 970px;
     text-transform: uppercase;
     color: white;
@@ -131,6 +132,7 @@
     
   }
   .sec2-banner h3 {
+    font-family: primary;
     margin-top: 30px;
     font-size: 27px;
     line-height: 26px;
@@ -150,6 +152,7 @@
     padding: 8px 16px;
     color: black;
     text-transform: uppercase;
+    font-family: primary;
   }
   .sec2-button2 {
     margin-left: 15px;
@@ -160,6 +163,7 @@
     padding: 8px 16px;
     color: black;
     text-transform: uppercase;
+    font-family: primary;
   }
   
   .section-3 {

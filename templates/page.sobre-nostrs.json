@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -11,6 +12,7 @@
       "type": "hero-v2",
       "settings": {
         "title": "MÁS QUE UN CLUB DE RUNNING,<br>         UNA COMUNIDAD",
+        "bg_image": "shopify:\/\/shop_images\/tech-meeting-flatlay.jpg",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -29,6 +31,8 @@
       "settings": {
         "title": "El running es la búsqueda para encontrar la mejor versión de nosotros mismos. Mente, alma y cuerpo en conexión para empujar más allá de tus límites.",
         "code": "Miembro de Clique",
+        "star": "shopify:\/\/shop_images\/Frame_569.png",
+        "person": "shopify:\/\/shop_images\/fst_img_section_2.png",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -56,9 +60,21 @@
     "1659637671eb801540": {
       "type": "hero_v5",
       "settings": {
-        "title": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "LÍDERES DEL CLUB",
+        "bg_image": "shopify:\/\/shop_images\/Rectangle_374.jpg",
+        "bg_image_2": "shopify:\/\/shop_images\/Rectangle_374b.jpg",
+        "bg_image_3": "shopify:\/\/shop_images\/Rectangle_374c.jpg",
+        "bg_image_4": "shopify:\/\/shop_images\/Rectangle_374e.jpg",
+        "h5_1": "PUESTO DENTRO DEL EQUIPO",
+        "h4_1": "ARTURO DÍAZ",
+        "h5_2": "PUESTO DENTRO DEL EQUIPO",
+        "h4_2": "DIANA QUIROZ",
+        "h5_3": "PUESTO DENTRO DEL EQUIPO",
+        "h4_3": "PEDRO TORRES",
+        "h5_4": "PUESTO DENTRO DEL EQUIPO",
+        "h4_4": "KRISTEL ORTEGA",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
