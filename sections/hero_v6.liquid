@@ -4,8 +4,19 @@
     padding-top: {{section.settings.padding_top | times: 0.75 | round: 0}}px;
     padding-bottom: {{section.settings.padding_bottom | times: 0.75 | round: 0}}px;
 }
-
-
+{% comment %} .section_3_lowerside_image img {
+    width: 100%;
+    padding-bottom: 80px;
+} {% endcomment %}
+.section_3_lowerside_txt h5{
+    font-family:primary;
+}
+.section_3_lowerside_txt h3{
+    font-family:primary;
+}
+.section_3_lowerside_txt p{
+    font-family:lato;
+}
 
 
 @media screen and(min-width: 750px) {
@@ -22,7 +33,7 @@
         <div class="section_3_container">
           <div class="wrapper pure-g">
             <div class="section_3_lowerside_image pure-u-1 pure-u-md-12-24">
-              <img src="<img src="{{section.settings.image  | img_url: 'master'}}" alt="">
+            <img src="{{section.settings.image  | img_url: 'master'}}" alt="">
             </div>
             <div class="section_3_lowerside_txt pure-u-1 pure-u-md-12-24">
               <h5>{{section.settings.title}}</h5>
@@ -53,7 +64,7 @@
             "id": "pahra"
         }, {
             "type": "image_picker",
-            "label": "Background Image",
+            "label": "Image",
             "id": "image"
         }, {
             "type": "range",
