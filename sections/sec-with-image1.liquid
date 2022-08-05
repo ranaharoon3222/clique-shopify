@@ -1,0 +1,116 @@
+
+
+
+{%- style -%}
+.section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+}
+
+
+
+
+@media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+}
+{%- endstyle -%}
+
+<div class="section-{{ section.id }}-padding">
+    
+     <!-- section-5 start -->
+     <div class="section-5">
+        <div class="wrapper">
+          <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-12-24">
+              <div class="sec5-content">
+                <img src="{{section.settings.brandimage | img_url: 'master' }} " alt="" />
+                <h3>
+                  {{section.settings.heading3}}
+                </h3>
+                <p>
+                  {{section.settings.paragraph}}
+                </p>
+                <h4>{{section.settings.heading4}} </h4>
+                <button>conócenos</button>
+              </div>
+            </div>
+            <div class="pure-u-1 pure-u-md-12-24">
+              <div class="sec5-image">
+                <img src="{{section.settings.image1 | img_url: 'master' }} " alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  
+</div>
+
+{% schema %}
+{
+"name": "sec-with-image1",
+"settings": [
+  {
+    "type": "image_picker",
+    "label": "Front Image",
+    "id": "brandimage"
+  },
+  {
+    "type": "text",
+    "label": "Title",
+    "id": "heading3"
+  },
+  
+
+  {
+    "type": "text",
+    "label": "Heading",
+    "id": "paragraph"
+  },
+
+  {
+    "type": "text",
+    "label": "Heading",
+    "id": "heading4"
+  },
+  {
+    "type": "image_picker",
+    "label": "Front Image",
+    "id": "image1"
+  },
+
+  {
+    "type": "range",
+    "id": "padding_top",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_top",
+    "default": 36
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_bottom",
+    "default": 36
+  }
+],
+"presets": [
+  {
+    "name": "sec-with-image1"
+  }
+]
+}
+
+
+{% endschema %}
