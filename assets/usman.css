@@ -185,12 +185,14 @@
     }
   
   .sec3 h3 {
+    font-family: primary;
     color: white;
     font-size: 35px;
     text-transform: uppercase;
     
   }
   .sec3  button {
+    font-family: primary;
     height: 25px;
     width: 130px;
     color: white;
