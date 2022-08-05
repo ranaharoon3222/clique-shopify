@@ -4,11 +4,19 @@
     padding-top: {{section.settings.padding_top | times: 0.75 | round: 0}}px;
     padding-bottom: {{section.settings.padding_bottom | times: 0.75 | round: 0}}px;
 }
-.section_3_lowerside_image img {
+{% comment %} .section_3_lowerside_image img {
     width: 100%;
     padding-bottom: 80px;
+} {% endcomment %}
+.section_3_lowerside_txt h5{
+    font-family:primary;
 }
-
+.section_3_lowerside_txt h3{
+    font-family:primary;
+}
+.section_3_lowerside_txt p{
+    font-family:lato;
+}
 
 
 @media screen and(min-width: 750px) {
