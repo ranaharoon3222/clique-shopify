@@ -208,7 +208,7 @@
   .sec3 a{
     font-family: primary;
     height: 25px;
-    
+    text-decoration: none;
     color: white;
     background-color: transparent;
     border: none;
