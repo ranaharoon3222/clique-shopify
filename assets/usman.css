@@ -360,7 +360,7 @@
   
   .section-9{
     background-color: #F8F8F8;
-    padding: 100px;
+    padding: 80px 0px;
   }
   .sec9-content h3{
   color: #151515;
@@ -376,8 +376,8 @@
     text-align: center;
     color: #666666;
     max-width: 500px;
-  margin: auto;
-  margin-top: 25px;
+    margin: auto;
+    margin-top: 25px;
   
   }
   .sec9-content h5{
