@@ -199,13 +199,26 @@
     background-color: transparent;
     border: none;
     border-bottom: 1px solid;
-  text-align: left;
+    text-align: left;
     text-transform: uppercase;
     font-size: 14px;
     margin: 15px 0px 0px 0px;
     padding-bottom: 6px;
   }
-  
+  .sec3 a{
+    font-family: primary;
+    height: 25px;
+    
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 15px 0px 0px 0px;
+    padding-bottom: 6px;
+  }
   
   
   .section-5 {
