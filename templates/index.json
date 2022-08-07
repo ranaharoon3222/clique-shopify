@@ -4,8 +4,8 @@
       "type": "main-banner",
       "settings": {
         "image1": "shopify:\/\/shop_images\/hiker-ties-their-shoe.jpg",
-        "title": "Más que un club de Running, una comunidad",
-        "heading": "Sé parte del club con nuestros productos oficiales.",
+        "title": "Mas que un club de Running, una comunidad",
+        "heading": "Se parte del club con nuestros productos oficiales.",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -25,9 +25,9 @@
       "type": "sec-with-image1",
       "settings": {
         "brandimage": "shopify:\/\/shop_images\/Frame_569.png",
-        "heading3": "Más que un club de running,                  una comunidad",
-        "paragraph": "Somos una nueva generación de corredores, entregados y                 comprometidos, a los que nos encanta compartir la pasión por                 correr y cumplir nuestras metas en el proceso, pero sobre todo…",
-        "heading4": "Somos inspiración",
+        "heading3": "Mas que un club de running,                  una comunidad",
+        "paragraph": "Somos una nueva generacion de corredores, entregados y                 comprometidos, a los que nos encanta compartir la pasion por                 correr y cumplir nuestras metas en el proceso, pero sobre todo…",
+        "heading4": "Somos inspiracion",
         "image1": "shopify:\/\/shop_images\/hiker-ties-their-shoe.jpg",
         "padding_top": 36,
         "padding_bottom": 36
@@ -39,7 +39,7 @@
         "image1": "shopify:\/\/shop_images\/tech-meeting-flatlay.jpg",
         "heading3": "vive con nosoros un paseo muy especial con nuestras experiencias",
         "heading4": "Correr es movimiento y nos movemos con estilo",
-        "paragraph": "Servimos café, aperitivos y tocamos nuestra música no solo para                 nuestros miembros, sino también para amigos y familiares.",
+        "paragraph": "Servimos cafe, aperitivos y tocamos nuestra musica no solo para                 nuestros miembros, sino tambien para amigos y familiares.",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -67,7 +67,7 @@
     "1659698592bb072cdd": {
       "type": "small-banner2",
       "settings": {
-        "heading4": "síguenos",
+        "heading4": "siguenos",
         "heading2": "@cliquerunclub",
         "image1": "shopify:\/\/shop_images\/banner-instagram.png",
         "padding_top": 0,
