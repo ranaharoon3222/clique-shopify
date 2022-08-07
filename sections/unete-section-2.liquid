@@ -1,0 +1,102 @@
+
+
+
+{%- style -%}
+.section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+}
+
+
+
+
+  <!-- .section-1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url({{section.settings.header_img |  img_url: 'master'}});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px;
+} -->
+
+
+
+
+@media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+}
+{%- endstyle -%}
+
+<div class="section-{{ section.id }}-padding">
+    
+    <div class="section-2">
+        <div class="container">
+          <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-12-24">
+              <h4 class="H4" style="color: #151515;"> {{section.settings.h4_heading}} </h4>
+            </div>
+          </div>
+          <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-12-24">
+              <p class="body-1"> {{section.settings.p_heading}} </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  
+</div>
+
+{% schema %}
+{
+"name": "unete-section-2",
+"settings": [
+  {
+    "type": "text",
+    "label": "background img",
+    "id": "h4_heading"
+  },
+  {
+    "type": "text",
+    "label": "Title",
+    "id": "p_heading"
+  },
+  
+
+  
+
+  {
+    "type": "range",
+    "id": "padding_top",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_top",
+    "default": 36
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_bottom",
+    "default": 36
+  }
+],
+"presets": [
+  {
+    "name": "unete-section-2"
+  }
+]
+}
+
+
+{% endschema %}
