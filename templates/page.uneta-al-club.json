@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -10,6 +9,7 @@
     },
     "1659868455db58ff08": {
       "type": "unete-ul-club",
+      "disabled": true,
       "settings": {
         "header_img": "shopify:\/\/shop_images\/indoor-brick-wall-texture.jpg",
         "m_heading": "unete al club",
