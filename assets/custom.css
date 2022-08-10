@@ -50,6 +50,18 @@ label.swatch-anchor {
 
 
 
+    @media all and (min-width :768px){
+li.product__media-item:first-child {
+    width: 100%;
+    max-width: 100%;
+}
+
+li.product__media-item:nth-of-type(4n) {
+    width: 100%;
+    max-width: 100%;
+}
+      
+    }
 
     @media all and (max-width :768px){
         .experience {
