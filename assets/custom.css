@@ -47,7 +47,9 @@ label.swatch-anchor {
     color: #000000;
     background-color: #FFFFFF;
 }
-
+.swatch--gl.clearfix[data-option-index="0"] {
+    display: none;
+}
 
 
     @media all and (min-width :768px){
