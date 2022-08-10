@@ -50,7 +50,9 @@ label.swatch-anchor {
 .swatch--gl.clearfix[data-option-index="0"] {
     display: none;
 }
-
+button.btn.btn-globo.globo--add-to-cart.globo-ajax-form-cart {
+    display: none;
+}
 
     @media all and (min-width :768px){
 li.product__media-item:first-child {
