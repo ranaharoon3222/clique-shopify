@@ -8,16 +8,16 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "Diseñado para la distancia en un estilo ligero y aerodinámico y malla suave como la seda.",
+            "text_style": "subtitle"
           }
         },
         "variant_picker": {
@@ -87,8 +87,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
+        "caption",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
