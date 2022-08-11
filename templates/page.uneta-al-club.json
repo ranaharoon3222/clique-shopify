@@ -25,11 +25,21 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1660220242417d3e8d": {
+      "type": "unete-section-3",
+      "settings": {
+        "h4_heading": "BENEFICIOS PARA LOS MIEMBROS DEL CLUB",
+        "p_heading": "sdsadsads",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "1659868455db58ff08",
-    "1659869624eeb43192"
+    "1659869624eeb43192",
+    "1660220242417d3e8d"
   ]
 }
