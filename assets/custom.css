@@ -64,14 +64,14 @@ nav.header__inline-menu {
     text-align: center;
 }
 
-span.mm-title {
+.list-menu__item > span.mm-title {
     font-family: 'primary';
     font-size: 18px;
     color: black;
     letter-spacing: 1px;
 }
 
-span.mm-title:hover {
+.list-menu__item  > span.mm-title:hover {
 color:#666666
 }
 
