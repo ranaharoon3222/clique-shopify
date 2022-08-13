@@ -54,6 +54,34 @@ button.btn.btn-globo.globo--add-to-cart.globo-ajax-form-cart {
     display: none;
 }
 
+
+
+.header--middle-left {
+    grid-template-columns: auto 8fr 1fr;
+}
+
+nav.header__inline-menu {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @media all and (min-width :768px){
 li.product__media-item:first-child {
     width: 100%;
