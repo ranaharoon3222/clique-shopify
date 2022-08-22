@@ -97,7 +97,9 @@ color:#666666
     display: flex;
     align-items: center;
 }
-
+.social_grid>div > a {
+    display: flex;
+}
 
 
 
