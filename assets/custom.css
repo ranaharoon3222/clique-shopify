@@ -142,7 +142,7 @@
         .horizontal-mega-menu>li.buddha-menu-item ul.mm-submenu.tree>li:last-child,
         .horizontal-mega-menu>li.buddha-menu-item>ul.mm-contact,
         .horizontal-mega-menu>li.buddha-menu-item>ul.mm-contact>li.mm-contact-column,
-        .horizontal-mega-menu>li.buddha-menu-item>ul.mm-submenu,
+  html body      .horizontal-mega-menu>li.buddha-menu-item>ul.mm-submenu,
         .horizontal-mega-menu>li.buddha-menu-item>ul.mm-submenu.tree>li>ul.mm-submenu.tree {
             border-radius: 0px !important;
         }
