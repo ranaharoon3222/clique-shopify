@@ -121,7 +121,11 @@
         font-family: Lato;
         font-size: 14px;
     }
-Regístrate para recibir ofertas exclusivas, noticias de nuestro club, eventos y más.
+h2.footer-block__heading {
+    font-size: 14px;
+    font-family: Lato !important;
+    text-align: left;
+}
 
 
 
