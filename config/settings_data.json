@@ -158,12 +158,19 @@
               "heading": "servicio",
               "menu": "nosotros"
             }
+          },
+          "05f39b5c-921e-41eb-bf28-3e5a6243ee71": {
+            "type": "form",
+            "settings": {
+              "heading": "Heading"
+            }
           }
         },
         "block_order": [
           "footer-2",
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "05f39b5c-921e-41eb-bf28-3e5a6243ee71"
         ],
         "settings": {
           "color_scheme": "background-2",
