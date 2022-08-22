@@ -156,7 +156,18 @@
 
     @media all and (max-width :768px) {
 
-
+div#menu-drawer {
+    width: 100% !IMPORTANT;
+}
+div#menu-drawer nav {
+    padding-top: 0;
+}
+.vertical-mega-menu[menuIdx="0"]>li.buddha-menu-item > a > .toggle-menu-btn {
+    right: 13px !important;
+    top: calc(50% + 0px) !important;
+    transform: rotate(270deg);
+    top: 13px !important;
+}
 
       a.menu-drawer__menu-item.list-menu__item.link.link--text {
     background: transparent !important;
