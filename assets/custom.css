@@ -90,6 +90,7 @@ color:#666666
 }
 .social_grid > div {
     margin-right: 10px;
+    display: flex;
 }
 
 .social_grid {
