@@ -1,23 +1,25 @@
+    .wraper {
+        max-width: 1280px;
+        width: 90%;
+        margin: auto;
+    }
 
-.wraper {
-    max-width: 1280px;
-    width: 90%;
-    margin: auto;
-}
-.product__info-wrapper.grid__item {
-    position: sticky;
-    top: 0;
-}
-.experience {
-    font-family: primary;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 30px;
-    line-height: 42px;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 70px;}
+    .product__info-wrapper.grid__item {
+        position: sticky;
+        top: 0;
+    }
+
+    .experience {
+        font-family: primary;
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 30px;
+        line-height: 42px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 70px;
+    }
 
     .comparte {
         font-family: 'lato';
@@ -32,116 +34,141 @@
         margin-top: 30px;
     }
 
-label.swatch-anchor {
-    font-family: Lato !important;
-    color: black !important;
-}
-.globo-swatch-product-detail ul.value li.select-option input:checked+.globo-style--button {
-    border-color: #000000 !important;
-    color: #ffffff;
-    background-color: #ffffff;
-}
-
-.globo-swatch-product-detail .swatch--gl li .globo-style--button {
-    border-color: #E4E4E4 !important;
-    color: #000000;
-    background-color: #FFFFFF;
-}
-.swatch--gl.clearfix[data-option-index="0"] {
-    display: none;
-}
-button.btn.btn-globo.globo--add-to-cart.globo-ajax-form-cart {
-    display: none;
-}
-
-
-
-.header--middle-left {
-    grid-template-columns: auto 8fr 1fr;
-}
-
-nav.header__inline-menu {
-    text-align: center;
-}
-
-.list-menu__item > span.mm-title {
-    font-family: 'primary';
-    font-size: 18px;
-    color: black;
-    letter-spacing: 1px;
-}
-
-.list-menu__item  > span.mm-title:hover {
-color:#666666
-}
-
-
-.announcement_block {
-    background: #EA2E34;
-}
-
-.announcement_block > div {
-    display: flex;
-    max-width: 1166px;
-    margin: auto;
-    justify-content: space-between;
-    width: 90%;
-    align-items: center;
-}
-.social_grid > div {
-    margin-right: 10px;
-    display: flex;
-}
-
-.social_grid {
-    display: flex;
-    align-items: center;
-}
-.social_grid>div > a {
-    display: flex;
-}
-p.announcement-bar__message.h5 {
-    font-family: Lato;
-    color: white;
-    font-size: 13px;
-}
-.announcement_block a {
-    text-decoration: none;
-    color: white;
-    text-transform: capitalize;
-    font-family: Lato;
-    font-size: 14px;
-}
-
-
-
-
-
-    @media all and (min-width :768px){
-li.product__media-item:first-child {
-    width: 100%;
-    max-width: 100%;
-}
-
-li.product__media-item:nth-of-type(4n) {
-    width: 100%;
-    max-width: 100%;
-}
-      
+    label.swatch-anchor {
+        font-family: Lato !important;
+        color: black !important;
     }
 
-    @media all and (max-width :768px){
-.announcement_block>div {
-   
-    width: 100%;
-    justify-content: center;
-}
-      .hide-on-mb {
+    .globo-swatch-product-detail ul.value li.select-option input:checked+.globo-style--button {
+        border-color: #000000 !important;
+        color: #ffffff;
+        background-color: #ffffff;
+    }
+
+    .globo-swatch-product-detail .swatch--gl li .globo-style--button {
+        border-color: #E4E4E4 !important;
+        color: #000000;
+        background-color: #FFFFFF;
+    }
+
+    .swatch--gl.clearfix[data-option-index="0"] {
         display: none;
-      }
+    }
+
+    button.btn.btn-globo.globo--add-to-cart.globo-ajax-form-cart {
+        display: none;
+    }
+
+
+
+    .header--middle-left {
+        grid-template-columns: auto 8fr 1fr;
+    }
+
+    nav.header__inline-menu {
+        text-align: center;
+    }
+
+    .list-menu__item>span.mm-title {
+        font-family: 'primary';
+        font-size: 18px;
+        color: black;
+        letter-spacing: 1px;
+    }
+
+    .list-menu__item>span.mm-title:hover {
+        color: #666666
+    }
+
+
+    .announcement_block {
+        background: #EA2E34;
+    }
+
+    .announcement_block>div {
+        display: flex;
+        max-width: 1166px;
+        margin: auto;
+        justify-content: space-between;
+        width: 90%;
+        align-items: center;
+    }
+
+    .social_grid>div {
+        margin-right: 10px;
+        display: flex;
+    }
+
+    .social_grid {
+        display: flex;
+        align-items: center;
+    }
+
+    .social_grid>div>a {
+        display: flex;
+    }
+
+    p.announcement-bar__message.h5 {
+        font-family: Lato;
+        color: white;
+        font-size: 13px;
+    }
+
+    .announcement_block a {
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        font-family: Lato;
+        font-size: 14px;
+    }
+
+
+
+
+
+    @media all and (min-width :768px) {
+        li.product__media-item:first-child {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        li.product__media-item:nth-of-type(4n) {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .horizontal-mega-menu>li.buddha-menu-item ul.mm-submenu.tree,
+        .horizontal-mega-menu>li.buddha-menu-item ul.mm-submenu.tree>li:first-child,
+        .horizontal-mega-menu>li.buddha-menu-item ul.mm-submenu.tree>li:last-child,
+        .horizontal-mega-menu>li.buddha-menu-item>ul.mm-contact,
+        .horizontal-mega-menu>li.buddha-menu-item>ul.mm-contact>li.mm-contact-column,
+        .horizontal-mega-menu>li.buddha-menu-item>ul.mm-submenu,
+        .horizontal-mega-menu>li.buddha-menu-item>ul.mm-submenu.tree>li>ul.mm-submenu.tree {
+            border-radius: 0px !important;
+        }
+
+        html body .horizontal-mega-menu li.buddha-menu-item>ul.mm-submenu {
+            margin-top: 26px !important;
+            width: 100% !important;
+        }
+
+    }
+
+    @media all and (max-width :768px) {
+        .announcement_block>div {
+
+            width: 100%;
+            justify-content: center;
+        }
+
+        .hide-on-mb {
+            display: none;
+        }
+
         .experience {
             text-align: left;
         }
+
         .comparte {
             text-align: left;
             margin-bottom: 80px;
