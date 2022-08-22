@@ -80,7 +80,13 @@ color:#666666
     background: #EA2E34;
 }
 
-
+.announcement_block > div {
+    display: flex;
+    max-width: 1166px;
+    margin: auto;
+    justify-content: space-between;
+    width: 90%;
+}
 
 
 
