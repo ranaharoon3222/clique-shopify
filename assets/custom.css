@@ -172,7 +172,7 @@ div#menu-drawer {
 div#menu-drawer nav {
     padding-top: 0;
 }
-.vertical-mega-menu[menuIdx="0"]>li.buddha-menu-item > a > .toggle-menu-btn {
+html  .vertical-mega-menu[menuIdx="0"]>li.buddha-menu-item > a > .toggle-menu-btn {
     right: 13px !important;
     top: calc(50% + 0px) !important;
     transform: rotate(270deg);
