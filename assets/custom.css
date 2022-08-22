@@ -131,7 +131,11 @@ li.product__media-item:nth-of-type(4n) {
     }
 
     @media all and (max-width :768px){
-
+.announcement_block>div {
+   
+    width: 100%;
+    align-items: center;
+}
       .hide-on-mb {
         display: none;
       }
