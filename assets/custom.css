@@ -100,7 +100,18 @@ color:#666666
 .social_grid>div > a {
     display: flex;
 }
-
+p.announcement-bar__message.h5 {
+    font-family: Lato;
+    color: white;
+    font-size: 13px;
+}
+.announcement_block a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: Lato;
+    font-size: 14px;
+}
 
 
 
@@ -120,6 +131,10 @@ li.product__media-item:nth-of-type(4n) {
     }
 
     @media all and (max-width :768px){
+
+      .hide-on-mb {
+        display: none;
+      }
         .experience {
             text-align: left;
         }
