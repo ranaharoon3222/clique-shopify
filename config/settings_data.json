@@ -148,14 +148,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Nosotros",
-              "menu": "main-menu"
+              "menu": "nosotros"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "servicio",
-              "menu": "main-menu"
+              "menu": "nosotros"
             }
           }
         },
