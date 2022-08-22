@@ -140,7 +140,8 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
+              "img": "shopify:\/\/shop_images\/Logotipo_2.png",
+              "heading": "",
               "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi dui, aliquam nec lorem nec, consequat rhoncus nunc.<\/p>"
             }
           },
