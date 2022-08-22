@@ -148,7 +148,7 @@
         }
 
         html body .horizontal-mega-menu li.buddha-menu-item>ul.mm-submenu {
-            margin-top: 26px !important;
+            /* margin-top: 26px !important; */
             width: 100% !important;
         }
 
