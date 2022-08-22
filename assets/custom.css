@@ -126,7 +126,10 @@
     font-family: Lato !important;
     text-align: left;
 }
-
+.footer__content-bottom {
+    border-top: solid 0.1rem rgba(var(--color-foreground),.08);
+    padding-top: 0rem !important;
+}
 
 
 
