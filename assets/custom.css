@@ -142,7 +142,7 @@ div#CartPopup {
 }
 
 .styles_CartPreview__right__3dDLc {
-    right: -100%;
+    right: -100% !important;
     transition: .5s;
 }
 
