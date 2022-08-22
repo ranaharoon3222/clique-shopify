@@ -86,6 +86,7 @@ color:#666666
     margin: auto;
     justify-content: space-between;
     width: 90%;
+    align-items: center;
 }
 .social_grid > div {
     margin-right: 10px;
