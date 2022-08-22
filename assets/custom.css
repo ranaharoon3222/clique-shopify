@@ -130,7 +130,9 @@
     border-top: solid 0.1rem rgba(var(--color-foreground),.08);
     padding-top: 0rem !important;
 }
-
+.product .swatch--gl.clearfix[data-option-index="0"], .product button.btn.btn-globo.globo--add-to-cart.globo-ajax-form-cart {
+    display: block;
+}
 
 
     @media all and (min-width :768px) {
