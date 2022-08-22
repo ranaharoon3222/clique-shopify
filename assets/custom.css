@@ -134,7 +134,7 @@ li.product__media-item:nth-of-type(4n) {
 .announcement_block>div {
    
     width: 100%;
-    align-items: center;
+    justify-content: center;
 }
       .hide-on-mb {
         display: none;
