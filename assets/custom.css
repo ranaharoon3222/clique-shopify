@@ -156,6 +156,10 @@
 
     @media all and (max-width :768px) {
 
+      html .vertical-mega-menu>.buddha-menu-item>.mm-submenu.tree>li>a {
+    margin-left: 20px !important;
+}
+
 html .vertical-mega-menu ul.mm-submenu.simple > li .mm-list-name span {
     font-size: 24px !important;
     font-weight: 400 !IMPORTANT;
