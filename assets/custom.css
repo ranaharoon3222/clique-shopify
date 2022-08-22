@@ -121,7 +121,7 @@
         font-family: Lato;
         font-size: 14px;
     }
-h2.footer-block__heading {
+.footer-block__newsletter h2.footer-block__heading {
     font-size: 14px;
     font-family: Lato !important;
     text-align: left;
