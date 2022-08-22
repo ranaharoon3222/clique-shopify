@@ -135,14 +135,16 @@
 }
 
 
-}
 div#CartPopup {
     width: 100%;
     height: 383px !important;
     overflow-y: scroll;
 }
 
-
+.styles_CartPreview__right__3dDLc {
+    right: -100%;
+    transition: .5s;
+}
 
 
 
