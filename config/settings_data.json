@@ -140,7 +140,6 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "img": "shopify:\/\/shop_images\/Logotipo_2.png",
               "heading": "",
               "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi dui, aliquam nec lorem nec, consequat rhoncus nunc.<\/p>"
             }
@@ -149,14 +148,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Nosotros",
-              "menu": "nosotros"
+              "menu": ""
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "servicio",
-              "menu": "nosotros"
+              "menu": ""
             }
           },
           "05f39b5c-921e-41eb-bf28-3e5a6243ee71": {
