@@ -3,7 +3,7 @@
     {{ product }}
   {% endfor %}
 
-  {% for link in settings.collection_list_menu %}
+  {% for link in settings.collection_list %}
   {% if link.type == 'collection_link' %}
     {% assign collection = link.object %}
 
