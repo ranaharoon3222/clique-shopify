@@ -1,7 +1,7 @@
 <div class="inventoryWrapper">
 {% for product in collections.frontpage.products limit: 12 %}
-  <img src={{ product.images | asset_img_url }} />
-  {{ product.images | asset_img_url }}
+  <img src={{ product.images | file_img_url }} />
+  {{ product.images | file_img_url }}
     {{ product.images }}
   {% endfor %}
 
