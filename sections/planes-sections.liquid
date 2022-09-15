@@ -2,7 +2,7 @@
 {% for product in collections.frontpage.products limit: 12 %}
   <img src={{ product.images | asset_url  }} />
   
-  {{ product.images | asset_url  }}
+  {{ product.images }}
   {% endfor %}
 
   {% for link in settings.collection_list %}
