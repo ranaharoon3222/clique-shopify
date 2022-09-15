@@ -1,7 +1,6 @@
 <div class="inventoryWrapper">
-{% for variant in products %}
-        variantStock {{variant}};
-      {% endfor %}
+{% for product in collections.frontpage.products limit: 12 %}
+  {% endfor %}
 
 </div>
 {% schema %}
