@@ -1,6 +1,6 @@
 <div class="inventoryWrapper">
 {% assign collection_handle = 'Newest Products' %}
-{{ collections.first }}
+{{ collections.first.products }}
 {% for product in collections.frontpage.products %}
   <a href={{ product.url }}>
   <img src={{ product | image_url: height: 450 }} />
