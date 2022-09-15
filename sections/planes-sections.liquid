@@ -1,5 +1,8 @@
 <div class="inventoryWrapper">
-    <p>Stock: {{ current_variant.inventory_quantity }}</p>
+{% for variant in product.variants %}
+        variantStock[{{- variant.id -}}] = {{ variant.inventory_quantity }};
+      {% endfor %}
+
 </div>
 {% schema %}
   {
