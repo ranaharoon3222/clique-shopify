@@ -1,6 +1,7 @@
 <div class="inventoryWrapper">
 {% for product in collections.frontpage.products limit: 12 %}
-   <img src={{ product.images }} />
+  {{ product.image | image_url: width: 450, height: 450 | image_tag: product.image.alt }}
+    {{ product.images }}
   {% endfor %}
 
   {% for link in settings.collection_list %}
