@@ -1,6 +1,6 @@
 <div class="inventoryWrapper">
 {% for product in collections.frontpage.products limit: 12 %}
-    {{ product.title }}
+    {{ product.tags }}
   {% endfor %}
 
   {% for link in settings.collection_list %}
