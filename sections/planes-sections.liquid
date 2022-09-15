@@ -1,6 +1,6 @@
 <div class="inventoryWrapper">
 {% for product in collections.frontpage.products limit: 12 %}
-  {% render 'card-collection', card_collection: block.settings.collection , media_aspect_ratio: section.settings.image_ratio, columns: columns %}
+  {{ product.images | asset_img_url }}
     {{ product.images }}
   {% endfor %}
 
