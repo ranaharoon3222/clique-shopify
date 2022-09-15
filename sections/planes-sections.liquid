@@ -1,6 +1,7 @@
 <div class="inventoryWrapper">
 {% for product in collections.frontpage.products limit: 12 %}
-  {{ product.images | image_url: width: 450, height: 450 | image_tag: product.images }}
+  {% assign alt = product.title | escape %}
+  {{ product.products.first.image | image_url: width: 450, height: 450 | image_tag: alt }}
     {{ product.images }}
   {% endfor %}
 
