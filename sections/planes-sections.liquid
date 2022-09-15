@@ -1,5 +1,5 @@
 <div class="inventoryWrapper">
-{% for product in collections.frontpage.products limit: 12 %}
+{% for product in collections.frontpage.products  %}
   <a href={{ product.url }}>
   <img src={{ product | image_url: height: 450 }} />
   {{ product.title }}
