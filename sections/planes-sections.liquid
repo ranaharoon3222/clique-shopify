@@ -1,4 +1,5 @@
 <div class="inventoryWrapper">
+   {{ collections.frontpage.products }}
 {% for product in collections.frontpage.products limit: 12 %}
     {{ product }}
   {% endfor %}
