@@ -1,7 +1,7 @@
 <div class="inventoryWrapper">
 {% for product in collections.frontpage.products limit: 12 %}
   {{ 'potions-header.png' | file_img_url }}
-  <img src={{ 'products/Destacado3.jpg' | asset_url  }} />
+  <img src={{ 'products/Destacado3.jpg' | file_img_url  }} />
   
   {{ product.images }}
   {% endfor %}
