@@ -3,7 +3,7 @@
   {{ 'potions-header.png' | file_img_url }}
   <img src={{ 'products/Destacado3.jpg' | file_img_url  }} />
   
-  {{ product.images }}
+  {{ product.images | file_img_url }}
   {% endfor %}
 
   {% for link in settings.collection_list %}
