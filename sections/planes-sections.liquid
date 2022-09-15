@@ -3,7 +3,7 @@
   {{ 'Destacado3.jpg' | file_img_url }}
   <img src={{ 'Destacado3.jpg' | file_img_url  }} />
   
-  {{ product.images  | collection_img_url }}
+  {{ product.image  | collection_img_url }}
   {% endfor %}
 
   {% for link in settings.collection_list %}
