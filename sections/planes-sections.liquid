@@ -1,5 +1,7 @@
-<div>
-  contenido
+<div class="inventoryWrapper">
+  {% if current_variant.inventory_quantity > 0 and current_variant.inventory_management == 'shopify' %}
+    <p>Stock: {{ current_variant.inventory_quantity }}</p>
+  {% endif %}
 </div>
 {% schema %}
   {
