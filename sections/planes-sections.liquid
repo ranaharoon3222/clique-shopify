@@ -1,8 +1,9 @@
 <div class="inventoryWrapper">
 {% for product in collections.frontpage.products limit: 12 %}
-  {{ product.url }}
+  <a href={{ product.url }}>
   <img src={{ product | image_url: height: 450 }} />
   {{ product.title }}
+  </a>
   {% endfor %}
 
   {% for link in settings.collection_list %}
