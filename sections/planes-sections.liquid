@@ -7,7 +7,7 @@
 {% endfor %}
 
   
-{% for product in collections.newest-products.products %}
+{% for product in collections.best-selling-products.products %}
   <a href={{ product.url }}>
   <img src={{ product | image_url: height: 250 }} />
   </a>
