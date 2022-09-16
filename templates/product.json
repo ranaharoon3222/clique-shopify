@@ -54,7 +54,7 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Cuidados",
+            "heading": "planes",
             "icon": "none",
             "content": "",
             "page": ""
