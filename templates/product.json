@@ -59,6 +59,15 @@
             "content": "<p>entrenamiento<\/p>",
             "page": "options"
           }
+        },
+        "b3827dd4-7fbd-4185-8622-21c5292bf7a0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "semana 2",
+            "icon": "check_mark",
+            "content": "<p>semana 2<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -70,7 +79,8 @@
         "quantity_selector",
         "description",
         "collapsible-row-1",
-        "collapsible-row-2"
+        "collapsible-row-2",
+        "b3827dd4-7fbd-4185-8622-21c5292bf7a0"
       ],
       "settings": {
         "enable_sticky_info": true,
