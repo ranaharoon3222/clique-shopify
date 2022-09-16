@@ -56,7 +56,7 @@
           "settings": {
             "heading": "planes",
             "icon": "none",
-            "content": "",
+            "content": "<p>",
             "page": "a"
           }
         }
