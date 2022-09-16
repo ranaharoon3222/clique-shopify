@@ -1,11 +1,6 @@
 <div class="inventoryWrapper">
 {% assign collection_handle = 'Newest Products' %}
 
-
-{% for c in collections %}
-{{ c.handle }},
-{% endfor %}
-
   
 {% for product in collections.planes-entrenamiento.products %}
   <a href={{ product.url }}>
