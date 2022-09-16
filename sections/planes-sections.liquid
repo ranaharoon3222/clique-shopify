@@ -9,8 +9,7 @@
   
 {% for product in collections.newest-products.products %}
   <a href={{ product.url }}>
-  <img src={{ product | image_url: height: 450 }} />
-  {{ product.title }}
+  <img src={{ product | image_url: height: 250 }} />
   </a>
   {% endfor %}
   
