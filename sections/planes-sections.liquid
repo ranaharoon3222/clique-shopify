@@ -5,6 +5,7 @@
 {% for c in collections.planes-entrenamiento.products %}
 {{ c }}
 {% endfor %}
+
   
 {% for product in collections.frontpage.products %}
   <a href={{ product.url }}>
@@ -12,14 +13,6 @@
   {{ product.title }}
   </a>
   {% endfor %}
-
-  {% for link in settings.collection_list %}
-  {% if link.type == 'collection_link' %}
-    {% assign collection = link.object %}
-
-    <!-- collection info -->
-  {% endif %}
-{% endfor %}
   
 </div>
 {% schema %}
