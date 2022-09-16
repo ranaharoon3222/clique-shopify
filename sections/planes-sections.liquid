@@ -8,7 +8,6 @@
 
   
 {% for product in collections.best-selling-products.products %}
-  console.log(product)
   <a href={{ product.url }}>
   <img src={{ product | image_url: height: 250 }} />
   </a>
