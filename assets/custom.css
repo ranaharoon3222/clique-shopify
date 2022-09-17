@@ -17,6 +17,11 @@
   
 }
 
+.accordion-training{
+  width: 100%;
+  border-bottom: 1px solid #E4E4E4;
+}
+
 .bg-program-training{
   background-color:#F8F8F8;
 }
