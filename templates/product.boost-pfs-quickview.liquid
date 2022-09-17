@@ -93,8 +93,10 @@
 {% assign current_variant = product.selected_or_first_available_variant %}
 
 <div class="container">
+  <div class="pure-u-1 pure-u-md-12-24">
   {{ product.description }}
-  <div class="col-12 col-md-6">
+  </div>
+  <div class="pure-u-1 pure-u-md-12-24">
 {% if product.images.size > 0 %}
       <div class="boost-pfs-quickview-slider">
         <div class="boost-pfs-quickview-slider-inner">
