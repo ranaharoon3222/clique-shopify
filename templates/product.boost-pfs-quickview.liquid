@@ -97,9 +97,7 @@
   {{ product.variant.option1 }}
 
 {% for product_option in product.options_with_values %}
-  {% for value in product_option.values %}
-   {{ value }}
-  {% endfor %}
+   {{ product_option }}
 {% endfor %}
   
 </div>
