@@ -13,6 +13,10 @@
   letter-spacing: initial;
 }
 
+.bg-program-training{
+  background-color:#F8F8F8;
+}
+
     .experience {
         font-family: primary;
         font-style: normal;
