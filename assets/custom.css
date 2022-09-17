@@ -22,6 +22,12 @@
   border-bottom: 1px solid #E4E4E4;
 }
 
+.header-accordion{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .bg-program-training{
   background-color:#F8F8F8;
 }
