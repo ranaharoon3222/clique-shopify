@@ -97,11 +97,9 @@
   {{ product.variant.option1 }}
 
 {% for product_option in product.options_with_values %}
- {% if product_option == 'color' %}
   {% for value in product_option.values %}
    {{ value }}
   {% endfor %}
- {% endif %}
 {% endfor %}
   
 </div>
