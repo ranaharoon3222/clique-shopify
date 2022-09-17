@@ -94,7 +94,16 @@
 
 <div class="usman section-3">
   {{ product.description }}
-  {{ product.variants[0].title }}
-
   
 </div>
+<section class="bg-program-training">
+  <div class="pure-g wrapper">
+    <h2 class="title-training">
+      programa de entrenamiento
+    </h2>
+    <br>
+    {% for variant in product.variants %}
+        {{ variant.title }}
+    {% endfor %}
+  </div>
+</section>
