@@ -93,6 +93,7 @@
 {% assign current_variant = product.selected_or_first_available_variant %}
 
 <div class="usman section-3">
+  {{ product.selected_or_first_available_variant }}
   {{ product.description }}
   {{ product.variants[0].id }}
 
