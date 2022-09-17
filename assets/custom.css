@@ -14,7 +14,8 @@
 }
 
 .title-training{
-  
+  line-height: 40px;
+  border-bottom: 1px solid #E4E4E4;
 }
 
 .accordion-training{
