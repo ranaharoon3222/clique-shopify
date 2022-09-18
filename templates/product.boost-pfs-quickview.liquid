@@ -97,6 +97,18 @@
 <div class="pure-u-1 pure-u-md-12-24">
   <h1>{{ product.title }}</h1>
   {{ product.description }}
+  
+      <div class="boost-pfs-quickview-cart">
+        <button type="submit" name="add" id="boost-pfs-quickview-cart-btn-{{ product.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="boost-pfs-quickview-cart-btn{% if product.options.size == 1 and product.variants[0].title == 'Default Title' %} product-form__cart-submit--small{% endif %}">
+          <span id="boost-pfs-quickview-cart-btn-text-{{ product.id }}" class="boost-pfs-quickview-cart-btn-text">
+            {% unless current_variant.available %}
+            {{ sold_out_btn_label }}
+            {% else %}
+            {{ add_to_cart_btn_label }}
+            {% endunless %}
+          </span>
+        </button>
+      </div>
 </div>
     <div class="pure-u-1 pure-u-md-12-24">
             {% for image in product.images %}
