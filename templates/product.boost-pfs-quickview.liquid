@@ -92,9 +92,17 @@
 {% assign truncate_words = 30 %}
 {% assign current_variant = product.selected_or_first_available_variant %}
 
-<div class="usman section-3">
-  
+<section class="usman section-3">
+  <div class="pure-g wrapper">
+<div class="pure-u-1 pure-u-md-12-24">
+  <h1>{{ product.title }}</h1>
   {{ product.description }}
+</div>
+    <div class="pure-u-1 pure-u-md-12-24">
+      <img src={{ product.images }} width="100%" style="padding: 1em;" />
+    </div>
+  </div>
+  </section>
   
 </div>
 <section class="bg-program-training">
