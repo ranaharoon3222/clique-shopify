@@ -41,6 +41,15 @@
   width: 163px;
 }
 
+.btn-white{
+  background-color:white;
+  font-family: primary;
+  font-size: 18px;
+  color: #151515;
+  letter-spacing: 1px;
+  width: 163px;
+}
+
     .experience {
         font-family: primary;
         font-style: normal;
