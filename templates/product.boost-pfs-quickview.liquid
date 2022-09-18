@@ -99,7 +99,7 @@
   {{ product.description }}
 </div>
     <div class="pure-u-1 pure-u-md-12-24">
-      <img src={{ product.images | file_url }} />
+      <img src="{{ product.images.src | img_url: image_size }}" alt="{{ image.alt | escape }}" />
     </div>
   </div>
   </section>
