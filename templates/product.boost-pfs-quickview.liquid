@@ -99,7 +99,11 @@
   {{ product.description }}
 </div>
     <div class="pure-u-1 pure-u-md-12-24">
-      <img src="{{ product.images.src | img_url: image_size }}" alt="{{ image.alt | escape }}" />
+{% for image in product.images %}
+              <div class="boost-pfs-quickview-featured-image">
+                <img src="{{ image.src | img_url: image_size }}" alt="{{ image.alt | escape }}" />
+              </div>
+            {% endfor %}
     </div>
   </div>
   </section>
