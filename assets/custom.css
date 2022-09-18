@@ -50,6 +50,12 @@
   width: 163px;
 }
 
+.footer-plan{
+  background: #151515;
+  padding:0.5em;
+  color:white;
+}
+
     .experience {
         font-family: primary;
         font-style: normal;
