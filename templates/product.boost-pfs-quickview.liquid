@@ -100,7 +100,7 @@
 </div>
     <div class="pure-u-1 pure-u-md-12-24">
       {{ product.images }}
-      <img src={{ product.images  | img_url:image_size }} width="100%" style="padding: 1em;" />
+      <img src={{ product.images  | asset_url:image_size }} width="100%" style="padding: 1em;" />
     </div>
   </div>
   </section>
