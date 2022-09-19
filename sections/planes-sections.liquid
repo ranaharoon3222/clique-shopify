@@ -1,9 +1,10 @@
 <section class="usman section-3">
 <div class="wrapper">
 {% for product in collections.planes-entrenamiento.products %}
+  
   <a href={{ product.url }}>
   <img src={{ product | image_url: height: 450 }} />
-  {{ product.title }}
+  <h2>{{ product.title }}</h2>
   </a>
   {% endfor %}
   
