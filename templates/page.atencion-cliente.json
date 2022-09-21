@@ -1,14 +1,12 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "section-atencion": {
+      "type": "section-atencion",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     }
   },
   "order": [
-    "main"
+    "section-atencion"
   ]
 }
