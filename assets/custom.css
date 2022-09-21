@@ -13,11 +13,9 @@
     color: black !important;
     background-color: transparent !important;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-}
-
-  button .accordion-button {
     font-size: 16px;
 }
+
 
 .letter-spacing{
   letter-spacing: initial;
