@@ -13,8 +13,8 @@
     }
   }
 {%- endstyle -%}
-
-<div class="color-{{ section.settings.color_scheme }} gradient pure-g wrapper">
+<section class="pure-g wrapper">
+<div class="color-{{ section.settings.color_scheme }} gradient pure-u-1 pure-u-md-1-2">
   <h1>Escribenos</h1>
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
@@ -92,6 +92,7 @@
     {%- endform -%}
   </div>
 </div>
+</section>
 
 {% schema %}
 {
