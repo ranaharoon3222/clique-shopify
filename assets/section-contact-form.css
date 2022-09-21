@@ -2,6 +2,12 @@
   width: 100%;
 }
 
+.input-form{
+  width: 100%;
+    padding: 1em;
+    margin: 0 1em 1em 0em;
+}
+
 .contact .form__message {
   align-items: flex-start;
 }
