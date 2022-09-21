@@ -2,7 +2,7 @@
   <img src="https://cdn.shopify.com/s/files/1/0624/2648/0824/files/atencion.png?v=1663738718" width="100%" />
 </section>
 <section class="pure-g wrapper">
-  <div class="pure-u-1 pure-u-md-1-2">
+  <div class="pure-u-1 pure-u-md-1-2 displaynone">
     <h2>¿cómo podemos ayudarte?</h2>
     <p>Envíos</p>
     <p>Incidencias</p>
@@ -20,6 +20,15 @@
 {% endschema %}
 
 {% stylesheet %}
+  @media screen and (min-width: 48em){
+.pure-u-md-1-2, .pure-u-md-12-24 {
+    width: 50%;
+    display:block;
+}
+  }
+  .displaynone{
+    display:none;
+  }
 {% endstylesheet %}
 
 {% javascript %}
