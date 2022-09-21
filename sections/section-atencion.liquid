@@ -65,21 +65,8 @@
   </div>
   </div>
 </section>
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
-
-{% stylesheet %}
-body {
-    font-size: 16px !important;
-}
-{% endstylesheet %}
-
-{% javascript %}
-  const data2 = {
+<script>
+    const data2 = {
   columns: ['Name', 'Position', 'Office', 'Age', 'Start date', 'Salary'],
   rows: [
     ['Tiger Nixon', 'System Architect', '	Edinburgh', 61, '2011/04/25', '$320,800'],
@@ -100,4 +87,20 @@ const instance = new mdb.Datatable(document.getElementById('datatable'), data2)
 document.getElementById('datatable-search-input').addEventListener('input', (e) => {
   instance.input-group(e.target.value);
 });
+</script>
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+body {
+    font-size: 16px !important;
+}
+{% endstylesheet %}
+
+{% javascript %}
+
 {% endjavascript %}
