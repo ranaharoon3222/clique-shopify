@@ -65,9 +65,9 @@
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" 
             placeholder="Tu nombre">
         </div>
-                <label class="label-form" for="ContactForm-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
-
-        <div class="field field--with-error">          
+      
+        <label class="label-form" for="ContactForm-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+        <div class="field--with-error">          
           <input
             autocomplete="email"
             type="email"
