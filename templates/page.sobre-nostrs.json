@@ -12,7 +12,6 @@
       "type": "hero-v2",
       "settings": {
         "title": "MAS QUE UN CLUB DE RUNNING,<br>         UNA COMUNIDAD",
-        "bg_image": "shopify:\/\/shop_images\/tech-meeting-flatlay.jpg",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -32,7 +31,7 @@
         "title": "El running es la busqueda para encontrar la mejor version de nosotros mismos. Mente, alma y cuerpo en conexion para empujar mas alla de tus limites.",
         "code": "Miembro de Clique",
         "star": "shopify:\/\/shop_images\/Frame_569.png",
-        "person": "shopify:\/\/shop_images\/fst_img_section_2.png",
+        "person": "shopify:\/\/shop_images\/nosotros02.jpg",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -62,9 +61,9 @@
       "settings": {
         "title": "LÍDERES DEL CLUB",
         "bg_image": "shopify:\/\/shop_images\/Rectangle_374.jpg",
-        "bg_image_2": "shopify:\/\/shop_images\/Rectangle_374b.jpg",
-        "bg_image_3": "shopify:\/\/shop_images\/Rectangle_374c.jpg",
-        "bg_image_4": "shopify:\/\/shop_images\/Rectangle_374e.jpg",
+        "bg_image_2": "shopify:\/\/shop_images\/Rectangle_374-1.jpg",
+        "bg_image_3": "shopify:\/\/shop_images\/Rectangle_374-2.jpg",
+        "bg_image_4": "shopify:\/\/shop_images\/Rectangle_374.jpg",
         "h5_1": "PUESTO DENTRO DEL EQUIPO",
         "h4_1": "ARTURO DÍAZ",
         "h5_2": "PUESTO DENTRO DEL EQUIPO",
@@ -83,7 +82,6 @@
         "title": "UN PASEO MUY ESPECIAL",
         "title_2": "CORRER ES MOVIMIENTO Y NOSOTROS NOS NOVEMOS CON ESTILO",
         "pahra": "El Clique combi (nuestro autobús VW) es una gran experiencia, en donde servimos café, aperitivos y tocamos nuestra música, no sólo para nuestros miembros, sino también para amigos, familiares y quien quiera unirse a la diversión... Todos están invitados.",
-        "image": "shopify:\/\/shop_images\/Group_1.png",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -93,7 +91,7 @@
       "settings": {
         "title": "SÍGUENOS",
         "link": "@CLIQUERUNCLUB",
-        "bg_image": "shopify:\/\/shop_images\/banner-instagram.png",
+        "bg_image": "shopify:\/\/shop_images\/nosotros09.jpg",
         "padding_top": 0,
         "padding_bottom": 0
       }
