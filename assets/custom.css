@@ -73,8 +73,8 @@
 .unete-club-section3{
   background-color:#151515;
   color:white;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
 }
 
     .experience {
