@@ -84,7 +84,7 @@
         --media-shadow-visible: {% if settings.media_shadow_opacity > 0 %}1{% else %}0{% endif %};
 
         --page-width: {{ settings.page_width | divided_by: 10 }}rem;
-        --page-width-margin: 10rem;
+        --page-width-margin: {% if settings.page_width == '1600' %}2{% else %}0{% endif %}rem;
 
         --card-image-padding: {{ settings.card_image_padding | divided_by: 10.0 }}rem;
         --card-corner-radius: {{ settings.card_corner_radius | divided_by: 10.0 }}rem;
@@ -219,6 +219,7 @@
   @font-face {
     font-family: 'primary';
     src: url({{'AmarilloUSAF.woff2' | asset_url }}) format('woff2'),
+        url ({{'https://cdn.shopify.com/s/files/1/0624/2648/0824/files/HAMMER_TONGS_HARD.TTF?v=1663805143' | asset_url}}) format('ttf'),
         url({{'AmarilloUSAF.woff' | asset_url }}) format('woff');
     font-weight: normal;
     font-style: normal;
