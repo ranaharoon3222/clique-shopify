@@ -78,6 +78,10 @@
   font-size: 16px;
 }
 
+.form-control {
+  font-size:16px !important;
+}
+
     .experience {
         font-family: primary;
         font-style: normal;
