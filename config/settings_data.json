@@ -149,7 +149,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Nosotros",
-              "menu": "main-menu"
+              "menu": "footer1"
             }
           },
           "footer-1": {

@@ -3,7 +3,7 @@
     "16596109079597c687": {
       "type": "main-banner",
       "settings": {
-        "image1": "shopify:\/\/shop_images\/mountain-magic-hour.jpg",
+        "image1": "shopify:\/\/shop_images\/home01.jpg",
         "title": "Mas que un club de Running, una comunidad",
         "heading": "Se parte del club con nuestros productos oficiales.",
         "padding_top": 0,
@@ -15,8 +15,8 @@
       "settings": {
         "heading3": "Hombre",
         "heading2": "mujer",
-        "bg_image": "shopify:\/\/shop_images\/long-espresso-sits-on-a-wooden-stool.png",
-        "bg_image2": "shopify:\/\/shop_images\/holding-coffee-in-bed.png",
+        "bg_image": "shopify:\/\/shop_images\/home02.jpg",
+        "bg_image2": "shopify:\/\/shop_images\/home03.jpg",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -28,7 +28,7 @@
         "heading3": "Mas que un club de running,                  una comunidad",
         "paragraph": "Somos una nueva generacion de corredores, entregados y                 comprometidos, a los que nos encanta compartir la pasion por                 correr y cumplir nuestras metas en el proceso, pero sobre todo…",
         "heading4": "Somos inspiracion",
-        "image1": "shopify:\/\/shop_images\/classic-neon-open-sign.webp",
+        "image1": "shopify:\/\/shop_images\/Group-1.png",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -47,7 +47,7 @@
     "1659686714a3ef1c43": {
       "type": "banner-1",
       "settings": {
-        "image1": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.png",
+        "image1": "shopify:\/\/shop_images\/home08.jpg",
         "heading2": "lo mantenemos real",
         "paragraph": "Los corredores se identifican con nosotros porque no somos                 atletas profesionales, somos 100% reales.",
         "padding_top": 0,
@@ -69,7 +69,7 @@
       "settings": {
         "heading4": "siguenos",
         "heading2": "@cliquerunclub",
-        "image1": "shopify:\/\/shop_images\/indoor-brick-wall-texture.jpg",
+        "image1": "shopify:\/\/shop_images\/home09.jpg",
         "padding_top": 0,
         "padding_bottom": 0
       }
