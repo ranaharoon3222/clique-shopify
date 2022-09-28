@@ -36,7 +36,7 @@
             <div class="pure-u-1 pure-u-md-24-24">
               <div class="sec8-content">
                 <h4> {{section.settings.heading4}} </h4>
-                <h2> {{section.settings.heading2}} </h2>
+               <a href="{{ section.settings.url }}"> <h2> {{section.settings.heading2}} </h2> </a>
               </div>
             </div>
           </div>
@@ -61,6 +61,11 @@
     "type": "text",
     "label": "Title",
     "id": "heading2"
+  },
+  {
+    "type": "text",
+    "label": "url",
+    "id": "url2"
   },
   {
     "type": "image_picker",
