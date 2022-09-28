@@ -74,7 +74,7 @@
               <div class="newsletter-form__field-wrapper">
                 <div class="">
               
-                  <label class="input-form" for="NewsletterForm--{{ section.id }}">
+                  <label class="input-form d-flex p-0 m-0" for="NewsletterForm--{{ section.id }}">
                     {{ 'newsletter.label' | t }}
                   </label>
                   <input
@@ -82,7 +82,7 @@
                     type="email"
                     placeholder="{{ 'newsletter.label' | t }}"
                     name="contact[email]"
-                    class="input-form"
+                    class="input-form p-3"
                     value="{{ form.email }}"
                     aria-required="true"
                     autocorrect="off"
@@ -98,7 +98,7 @@
                     placeholder="{{ 'newsletter.label' | t }}"
                     required
                   >
-                  <button type="submit" class="" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                  <button type="submit" class="p-3" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
                     Enviar
                   </button>
                 </div>
