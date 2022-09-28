@@ -1,23 +1,6 @@
 /* base css............................................. */
 
-@font-face {
-    font-family: 'primary';
-    src: url('AmarilloUSAF.woff2') format('woff2'),
-        url('AmarilloUSAF.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'secondary';
-    src: url('Pixellari.woff2') format('woff2'),
-        url('Pixellari.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
-  
+
   
   
   .H1-D{
