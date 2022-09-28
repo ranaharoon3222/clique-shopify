@@ -72,9 +72,9 @@
             {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
-                <div class="field">
+                <div class="">
               
-                  <label class="" for="NewsletterForm--{{ section.id }}">
+                  <label class="input-form" for="NewsletterForm--{{ section.id }}">
                     {{ 'newsletter.label' | t }}
                   </label>
                   <input
@@ -82,7 +82,7 @@
                     type="email"
                     placeholder="{{ 'newsletter.label' | t }}"
                     name="contact[email]"
-                    class="field__input"
+                    class="input-form"
                     value="{{ form.email }}"
                     aria-required="true"
                     autocorrect="off"
