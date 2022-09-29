@@ -1,7 +1,7 @@
-<section class="usman section-3">
-<div class="pure-g wrapper">
+<section class="container">
+<div class="row">
 {% for product in collections.planes-entrenamiento.products %}
-  <div class="pure-u-1 pure-u-md-1-4">
+  <div class="col-12 col-md-3">
   <a href={{ product.url }}>
   <img src={{ product | image_url: height: 450 }} />
   <h2>{{ product.title }}</h2>
