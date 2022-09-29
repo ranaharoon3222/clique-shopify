@@ -1,7 +1,7 @@
 {
   "sections": {
     "page-header": {
-      "type": "page-header",
+      "type": "hero-v2",
       "settings": {
       }
     },
