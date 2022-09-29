@@ -1,4 +1,9 @@
-    .wraper {
+
+.body1{
+  font-size:18px !important;
+}
+
+.wraper {
         max-width: 1280px;
         width: 90%;
         margin: auto;
