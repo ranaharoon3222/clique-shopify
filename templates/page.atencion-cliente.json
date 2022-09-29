@@ -3,6 +3,11 @@
     "page-header": {
       "type": "banner-1",
       "settings": {
+        "image1": "shopify:\/\/shop_images\/faq01.jpg",
+        "heading2": "atención al cliente",
+        "paragraph": "Si lo tuyo es hablar con una persona, puedes cominicarte con alguien de nuestro club al (55) 55555555 para una atención personalizada.",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "section-atencion": {
