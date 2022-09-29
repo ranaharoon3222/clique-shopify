@@ -144,8 +144,7 @@
                 </div>
             </summary>
             <div class="accordion__content rte" id={{ "btn" + forloop.index  }}>
-                <p>
-        {{ variant.value }}</p>
+                <p>{{ field | first }}: {{ field | last }}</p>
 
             </div>
         </details>
