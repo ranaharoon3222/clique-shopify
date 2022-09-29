@@ -1,7 +1,7 @@
 {
   "sections": {
     "contact-banner": {
-      "type": "contact-banner",
+      "type": "banner-1",
       "settings": {
       }
     },
