@@ -3,6 +3,11 @@
     "contact-banner": {
       "type": "banner-1",
       "settings": {
+        "image1": "shopify:\/\/shop_images\/contacto01.jpg",
+        "heading2": "contáctanos",
+        "paragraph": "¿Tienes preguntas o comentarios?",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "form": {
