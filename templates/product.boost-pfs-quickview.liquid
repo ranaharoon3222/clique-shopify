@@ -95,7 +95,7 @@
 <section class="usman section-3">
   <div class="pure-g wrapper">
 <div class="pure-u-1 pure-u-md-12-24">
-  <h1>{{ product.title }}</h1>
+  <h1 style="font-size:40px;">{{ product.title }}</h1>
   {{ product.description }}
   
       <div class="boost-pfs-quickview-cart">
@@ -127,6 +127,7 @@
       programa de entrenamiento
     </h1>
     <br>
+    {{ product.metafields }}
     {% for variant in product.variants %}
 
 
