@@ -1,5 +1,10 @@
 {
   "sections": {
+    "page-header": {
+      "type": "page-header",
+      "settings": {
+      }
+    },
     "section-atencion": {
       "type": "section-atencion",
       "settings": {
@@ -7,6 +12,7 @@
     }
   },
   "order": [
+    "page-header",
     "section-atencion"
   ]
 }
