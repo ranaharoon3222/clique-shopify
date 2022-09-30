@@ -1,4 +1,7 @@
-  {% assign countWeeks = 0 %}
+  {% for variant in product.metafields.custom %}
+    
+  {% assign countWeeks = forloop.index %}
+    {% endfor %}
   {% assign bc_settings = shop.metafields.bc-sf-filter.settings %}
   {% assign active_vendor = true %}
   {% assign active_description = true %}
