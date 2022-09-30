@@ -130,7 +130,7 @@
     <br>
     {{ product.metafields.custom.length }}
     {% for variant in product.metafields.custom %}
-        {% assign countWeeks = 12 %}
+        
     <div class="product__accordion accordion quick-add-hidden accordion-training">
         <details id="Details-b3827dd4-7fbd-4185-8622-21c5292bf7a0-template--15816378613944__main">
             <summary role="button" aria-expanded="false" aria-controls={{ "btn" + forloop.index  }}>
@@ -155,6 +155,7 @@
     {% endfor %}
   </div>
 </section>
+{% assign countWeeks = 12 %}
 {{ countsWeeks }}
 <section class="footer-plan">
   <div class="wrapper" style="text-align:center;">
