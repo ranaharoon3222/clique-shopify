@@ -1,4 +1,4 @@
-  {% assign countWeeks = 12 %}
+  {% assign countWeeks = 0 %}
   {% assign bc_settings = shop.metafields.bc-sf-filter.settings %}
   {% assign active_vendor = true %}
   {% assign active_description = true %}
@@ -97,7 +97,7 @@
   <div class="pure-g wrapper">
 <div class="pure-u-1 pure-u-md-12-24">
   <h1 style="font-size:40px;">{{ product.title }}</h1>
-
+<p>{{ countsWeeks }}</p>
   {{ product.description }}
   
       <div class="boost-pfs-quickview-cart">
@@ -131,7 +131,6 @@
     <br>
     
     
-{{ countsWeeks }}
     {{ product.metafields.custom.length }}
     {% for variant in product.metafields.custom %}
         
