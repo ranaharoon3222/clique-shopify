@@ -129,6 +129,9 @@
     </h1>
     <br>
     {{ product.metafields.custom.length }}
+    
+{% assign countWeeks = 12 %}
+{{ countsWeeks }}
     {% for variant in product.metafields.custom %}
         
     <div class="product__accordion accordion quick-add-hidden accordion-training">
@@ -155,8 +158,6 @@
     {% endfor %}
   </div>
 </section>
-{% assign countWeeks = 12 %}
-{{ countsWeeks }}
 <section class="footer-plan">
   <div class="wrapper" style="text-align:center;">
     <h1 style="color:#EA2E34;">¡Que comience el reto!</h1>
