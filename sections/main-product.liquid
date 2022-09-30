@@ -410,7 +410,7 @@
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
-            <div {{ block.shopify_attributes }}>
+            <div {{ block.shopify_attributes }} class="ok">
               <product-form class="product-form">
                 <div class="product-form__error-message-wrapper" role="alert" hidden>
                   <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
@@ -446,7 +446,6 @@
                         </div>
                     </button>
                     {%- if block.settings.show_dynamic_checkout -%}
-                      asdasds
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
