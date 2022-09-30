@@ -447,10 +447,12 @@
                     </button>
                     {%- if block.settings.show_dynamic_checkout -%}
                       {% if customer.tags contains 'vip'  %}
+                        
+                      {{ form | payment_button }}
+                        {% else %}
+                        
                         <span>Este es un producto exclusivo para los miembros del club.</span>
                         <span>Si ya eres miembro <a><b>inicia sesión</b></a> sino eres miembro <a><b>Únete al club.</b></a>
-                        {% else %}
-                      {{ form | payment_button }}
                         {% endif %}
                     {%- endif -%}
                   </div>
