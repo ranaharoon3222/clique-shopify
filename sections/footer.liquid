@@ -191,9 +191,9 @@
                 {%- when 'text' -%}
                 <img src="{{ block.settings.img | img_url: 'master' }} " width="100px" >
                   <div class="footer-block__details-content rte pt-5">
-                    <b>
+                    <b style="max-width:200px;">
                     {{ block.settings.subtext }}
-                </b>
+                    </b>
                   </div>
                 {%- when 'link_list' -%}
                   {%- if block.settings.menu != blank -%}
