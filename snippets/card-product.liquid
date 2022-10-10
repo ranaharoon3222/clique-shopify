@@ -32,18 +32,20 @@
   -%}
   <div class="card-wrapper underline-links-hover" style="background:#F8F8F8;">
   <div class="card__badge {{ settings.badge_position }}" style="text-right">
-  
-            {%- if card_product.available == false -%}
-              <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
-             {%- elsif card_product.tags contains 'vip' -%}
+  {%- if card_product.tags contains 'vip' -%}
               <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="">
                 Exclusivo
-              </span>           
+              </span>  
+    {% endif %}
+            {%- if card_product.available == false -%}
+              <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
+                      
               {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
               <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="">
                 {{ 'products.product.on_sale' | t }}
               </span>
             {%- endif -%}
+  
           </div>
     <div class="card
       card--{{ settings.card_style }}
