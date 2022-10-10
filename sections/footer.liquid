@@ -51,7 +51,7 @@
         -%}
         <div class="row">
           {%- for block in section.blocks -%}
-            <div class="{% if block.type == 'link_list' %} col-3{% endif %}" {{ block.shopify_attributes }}>
+            <div class="{% if block.type == 'link_list' %} col-2{% else %} col-3 {% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.heading != blank -%}
                 <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
               {%- endif -%}
