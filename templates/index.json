@@ -4,8 +4,8 @@
       "type": "main-banner",
       "settings": {
         "image1": "shopify:\/\/shop_images\/home01.jpg",
-        "title": "Mas que un club de Running, una comunidad",
-        "heading": "Se parte del club con nuestros productos oficiales.",
+        "title": "Más que un club de Running, una comunidad",
+        "heading": "Sé parte del club con nuestros productos oficiales.",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -25,8 +25,8 @@
       "type": "sec-with-image1",
       "settings": {
         "brandimage": "shopify:\/\/shop_images\/Frame_569.png",
-        "heading3": "Mas que un club de running,                  una comunidad",
-        "paragraph": "Somos una nueva generacion de corredores, entregados y                 comprometidos, a los que nos encanta compartir la pasion por                 correr y cumplir nuestras metas en el proceso, pero sobre todo…",
+        "heading3": "Más que un club de running,                  una comunidad",
+        "paragraph": "Somos una nueva generación de corredores, entregados y                 comprometidos, a los que nos encanta compartir la pasión por correr y cumplir nuestras metas en el proceso, pero sobre todo…",
         "heading4": "Somos inspiracion",
         "image1": "shopify:\/\/shop_images\/Group-1.png",
         "padding_top": 36,
@@ -50,6 +50,7 @@
         "image1": "shopify:\/\/shop_images\/home08.jpg",
         "heading2": "lo mantenemos real",
         "paragraph": "Los corredores se identifican con nosotros porque no somos                 atletas profesionales, somos 100% reales.",
+        "paragraph2": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
