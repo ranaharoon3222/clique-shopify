@@ -30,7 +30,7 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper underline-links-hover" style="background:#F8F8F8;">
+  <div class="pb-5" style="background:#F8F8F8;">
   <div class="card__badge {{ settings.badge_position }}" style="text-align:right;padding: 10px 0;">
   
             {%- if card_product.available == false -%}
@@ -112,7 +112,9 @@
 
     </div>
   </div>
-        <div class="card__content">
+
+  
+        <div class="">
         <div class="card__information">
           <h3 class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"{% if card_product.featured_media or settings.card_style == 'card' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
             <a href="{{ card_product.url }}" id="CardLink-{{ section_id }}-{{ card_product.id }}" class="full-unstyled-link" aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}">
