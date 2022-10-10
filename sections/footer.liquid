@@ -191,7 +191,9 @@
                 {%- when 'text' -%}
                 <img src="{{ block.settings.img | img_url: 'master' }} " class="img-fluid" >
                   <div class="footer-block__details-content rte pt-3">
+                    <b>
                     {{ block.settings.subtext }}
+                </b>
                   </div>
                 {%- when 'link_list' -%}
                   {%- if block.settings.menu != blank -%}
@@ -448,7 +450,7 @@
           "type": "text",
           "id": "heading",
           "default": "Heading",
-          "label": "<b>t:sections.footer.blocks.text.settings.heading.label</b>"
+          "label": "t:sections.footer.blocks.text.settings.heading.label"
         },
         {
           "type": "richtext",
