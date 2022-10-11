@@ -2321,7 +2321,6 @@ input[type='checkbox'] {
 .header__heading-logo {
   height: auto;
   width: 100%;
-  filter: invert(1);
 }
 
 @media screen and (max-width: 989px) {
@@ -2360,7 +2359,6 @@ input[type='checkbox'] {
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: invert(1);
 }
 
 .header__icon {
@@ -2762,7 +2760,8 @@ details-disclosure > details {
 }
 
 .gradient {
-  background: transparent;
+  background: rgb(var(--color-background));
+  background: var(--gradient-background);
   background-attachment: fixed;
 }
 
