@@ -446,8 +446,8 @@
                         </div>
                     </button>
                     {%- if block.settings.show_dynamic_checkout -%}
-                      {% if product.tags contains 'vip' or product.tags contains 'Vip' %}
-                        {% if customer.tags contains 'vip' or customer.tags contains 'Vip'  %}
+                      {% if product.tags contains 'vip' %}
+                        {% if customer.tags contains 'vip'  %}
                             {{ form | payment_button }}
                         {% else %}
                             <span>Este es un producto exclusivo para los miembros del club.</span>
