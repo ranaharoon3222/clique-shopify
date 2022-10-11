@@ -21,42 +21,29 @@
         "padding_bottom": 36
       }
     },
-    "049a4783-21e3-4eaa-a965-f7d9c86a8636": {
-      "type": "collection-list",
-      "blocks": {
-        "template--15816378548408__049a4783-21e3-4eaa-a965-f7d9c86a8636-1665493590f9ff52ff-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "best-selling-products"
-          }
-        },
-        "template--15816378548408__049a4783-21e3-4eaa-a965-f7d9c86a8636-1665493590f9ff52ff-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "frontpage"
-          }
-        },
-        "template--15816378548408__049a4783-21e3-4eaa-a965-f7d9c86a8636-1665493590f9ff52ff-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "best-selling-products"
-          }
-        }
-      },
-      "block_order": [
-        "template--15816378548408__049a4783-21e3-4eaa-a965-f7d9c86a8636-1665493590f9ff52ff-0",
-        "template--15816378548408__049a4783-21e3-4eaa-a965-f7d9c86a8636-1665493590f9ff52ff-1",
-        "template--15816378548408__049a4783-21e3-4eaa-a965-f7d9c86a8636-1665493590f9ff52ff-2"
-      ],
+    "43f595ad-d7f7-47ff-bfe9-777b69b7dbb0": {
+      "type": "featured-collection",
       "settings": {
         "title": "Destacados",
         "heading_size": "h1",
-        "image_ratio": "portrait",
-        "columns_desktop": 3,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "pre-post-cotton-tee-hombre",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -138,7 +125,7 @@
   "order": [
     "16596109079597c687",
     "1659680571d361d127",
-    "049a4783-21e3-4eaa-a965-f7d9c86a8636",
+    "43f595ad-d7f7-47ff-bfe9-777b69b7dbb0",
     "recommendations",
     "16596844834dd7c2bf",
     "16596854457a1c6434",
