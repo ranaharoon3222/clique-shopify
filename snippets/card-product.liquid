@@ -31,6 +31,18 @@
     endif
   -%}
   <div class="card-wrapper underline-links-hover">
+    
+    <div class="card__badge {{ settings.badge_position }}">
+        {%- if card_product.available == false -%}
+          <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
+          {%- elsif card_product.tags contains 'Vip' -%}
+          <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" style="padding:10px; background:white;">
+            Exclusivo
+          </span> 
+          {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+          <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
+        {%- endif -%}
+      </div>
     <div class="card
       card--{{ settings.card_style }}
       {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
@@ -90,17 +102,6 @@
                 {{ card_product.title | escape }}
               </a>
             </h3>
-          </div>
-          <div class="card__badge {{ settings.badge_position }}">
-            {%- if card_product.available == false -%}
-              <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
-              {%- elsif card_product.tags contains 'Vip' -%}
-              <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" style="padding:10px; background:white;">
-                Exclusivo
-              </span> 
-              {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-              <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
-            {%- endif -%}
           </div>
         </div>
       </div>
