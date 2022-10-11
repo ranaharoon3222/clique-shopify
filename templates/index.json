@@ -21,13 +21,6 @@
         "padding_bottom": 36
       }
     },
-    "recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16596844834dd7c2bf": {
       "type": "sec-with-image1",
       "settings": {
@@ -88,7 +81,6 @@
   "order": [
     "16596109079597c687",
     "1659680571d361d127",
-    "recommendations",
     "16596844834dd7c2bf",
     "16596854457a1c6434",
     "1659686714a3ef1c43",
