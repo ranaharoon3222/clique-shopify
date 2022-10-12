@@ -35,24 +35,6 @@
           "type": "description",
           "settings": {
           }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Características",
-            "icon": "none",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "planes",
-            "icon": "none",
-            "content": "<p>entrenamiento<\/p>",
-            "page": "options"
-          }
         }
       },
       "block_order": [
@@ -61,9 +43,7 @@
         "caption",
         "buy_buttons",
         "quantity_selector",
-        "description",
-        "collapsible-row-1",
-        "collapsible-row-2"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
