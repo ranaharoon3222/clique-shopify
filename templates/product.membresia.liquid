@@ -100,7 +100,7 @@
   <div class="pure-g wrapper">
 <div class="pure-u-1 pure-u-md-12-24">
   <h1 style="font-size:40px;text-transform: uppercase;">{{ product.title }}</h1>
-<p class="pt-5 pb-5" style="color: #666666;font-size:14px;">$ {{ product.price | money_with_currency }}
+<p class="pt-5 pb-5" style="color: #666666;font-size:14px;">{{ product.price | money_with_currency }}
 </p>
   <h2 style="text-transform: uppercase;font-size:18px;">Descripción</h2>
   <p class="pt-5 pb-5" style="font-size:16px;color:#666666;">{{ product.description  }}</p>
