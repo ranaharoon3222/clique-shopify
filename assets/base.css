@@ -1,7 +1,9 @@
 /* Color custom properties */
 
-a{
-  color:#151515;
+footer a{
+    color: #151515 !important;
+    text-decoration: none !important;
+    font-weight: 500;
 }
 
 :root,
