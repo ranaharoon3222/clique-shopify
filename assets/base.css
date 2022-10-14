@@ -1,5 +1,8 @@
 /* Color custom properties */
 
+a{
+  color:#151515;
+}
 
 :root,
 .color-background-1 {
