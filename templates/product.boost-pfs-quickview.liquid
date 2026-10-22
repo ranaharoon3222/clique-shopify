@@ -128,7 +128,7 @@
 </div>
 <section class="bg-program-training" style="padding:80px 0 80px 0;">
   <div class="pure-g wrapper letter-spacing">
-    <h1 class="title-training" style="border-bottom: 1px solid #E4E4E4; width:100%;text-transform: uppercase;font-size:24px; padding-bottom:40px;">
+    <h1 class="title-training" style="border-bottom: 1px solid #E4E4E4; width:100%;text-transform: uppercase;font-size:24px;">
       programa de entrenamiento
     </h1>
     <br>
@@ -139,7 +139,7 @@
         
     <div class="product__accordion accordion quick-add-hidden accordion-training">
         <details id="Details-b3827dd4-7fbd-4185-8622-21c5292bf7a0-template--15816378613944__main">
-            <summary role="button" aria-expanded="false" aria-controls={{ "btn" + forloop.index  }}>
+            <summary role="button" aria-expanded="false" aria-controls={{ "btn" }}>
                 <div class="summary__title header-accordion">
 
                     <h2 class="h4 title-training">
@@ -150,7 +150,7 @@
                   </span>
                 </div>
             </summary>
-            <div class="accordion__content rte" id={{ "btn" + forloop.index  }}>
+            <div class="accordion__content rte" id={{ "btn" }}>
                 <p>{{ variant | last }}</p>
 
             </div>
@@ -180,3 +180,16 @@
       </div>
   </div>
 </section>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{{ "btn" + forloop.index  }}'
+  to: '{{ "btn" }}'
+  position: 7532..7543
+- from: '{{ "btn" + forloop.index  }}'
+  to: '{{ "btn" }}'
+  position: 8000..8011
+{% endcomment %}
